@@ -1,0 +1,1238 @@
+{
+  "restaurantName": "Laden",
+  "currency": "₺",
+  "categories": [
+    {
+      "id": "a0b39cd3-4f02-4c9b-9539-2d05e9bc57f7",
+      "name": "Kahveler",
+      "displayOrder": 1,
+      "products": [
+        {
+          "id": "af73f067-7756-449c-863f-0dfeb4959713",
+          "name": "Türk Kahvesi",
+          "description": "",
+          "price": 70,
+          "imageUrl": "https://kitchrest-public.s3.amazonaws.com/products/da5f3dcb-9080-4fa3-8ef1-72eecd6612d2/product_af73f067-7756-449c-863f-0dfeb4959713.jpg",
+          "isAvailable": true
+        },
+        {
+          "id": "627b7b93-3a9e-44f1-a10f-8ab8fae8fd65",
+          "name": "Damla sakızlı Türk kahvesi",
+          "description": "",
+          "price": 80,
+          "imageUrl": "https://kitchrest-public.s3.amazonaws.com/products/da5f3dcb-9080-4fa3-8ef1-72eecd6612d2/product_627b7b93-3a9e-44f1-a10f-8ab8fae8fd65.jpg",
+          "isAvailable": true
+        },
+        {
+          "id": "124848f8-e4a8-4540-a20c-6981614060d8",
+          "name": "Dibek kahvesi",
+          "description": "",
+          "price": 80,
+          "imageUrl": "https://kitchrest-public.s3.amazonaws.com/products/da5f3dcb-9080-4fa3-8ef1-72eecd6612d2/product_124848f8-e4a8-4540-a20c-6981614060d8.jpg",
+          "isAvailable": true
+        },
+        {
+          "id": "d335272a-dde8-449e-ab38-7014c028ffdb",
+          "name": "Americano",
+          "description": "",
+          "price": 140,
+          "imageUrl": "https://kitchrest-public.s3.amazonaws.com/products/da5f3dcb-9080-4fa3-8ef1-72eecd6612d2/product_d335272a-dde8-449e-ab38-7014c028ffdb.jpg",
+          "isAvailable": true
+        },
+        {
+          "id": "3b43e179-33c7-47cb-af1c-837b4c8fc7b9",
+          "name": "Flat White",
+          "description": "",
+          "price": 170,
+          "imageUrl": "https://kitchrest-public.s3.amazonaws.com/products/da5f3dcb-9080-4fa3-8ef1-72eecd6612d2/product_3b43e179-33c7-47cb-af1c-837b4c8fc7b9.jpg",
+          "isAvailable": true
+        },
+        {
+          "id": "3d6f4ffc-550d-416c-8d5f-309ff18d5e7b",
+          "name": "Latte",
+          "description": "",
+          "price": 150,
+          "imageUrl": "https://kitchrest-public.s3.amazonaws.com/products/da5f3dcb-9080-4fa3-8ef1-72eecd6612d2/product_3d6f4ffc-550d-416c-8d5f-309ff18d5e7b.jpg",
+          "isAvailable": true
+        },
+        {
+          "id": "33698ead-b017-4ac2-b7b3-17e9b123013d",
+          "name": "Cappuccino",
+          "description": "",
+          "price": 150,
+          "imageUrl": "https://kitchrest-public.s3.amazonaws.com/products/da5f3dcb-9080-4fa3-8ef1-72eecd6612d2/product_33698ead-b017-4ac2-b7b3-17e9b123013d.jpg",
+          "isAvailable": true
+        },
+        {
+          "id": "259a28d4-d007-4a1d-a77b-bb437980e6ba",
+          "name": "Mocha",
+          "description": "",
+          "price": 180,
+          "imageUrl": "https://kitchrest-public.s3.amazonaws.com/products/da5f3dcb-9080-4fa3-8ef1-72eecd6612d2/product_259a28d4-d007-4a1d-a77b-bb437980e6ba.jpg",
+          "isAvailable": true
+        },
+        {
+          "id": "122bff95-8f2f-4c2a-a2f4-8322ea890447",
+          "name": "Macchiato",
+          "description": "",
+          "price": 150,
+          "imageUrl": "https://kitchrest-public.s3.amazonaws.com/products/da5f3dcb-9080-4fa3-8ef1-72eecd6612d2/product_122bff95-8f2f-4c2a-a2f4-8322ea890447.jpg",
+          "isAvailable": true
+        },
+        {
+          "id": "6731d18a-3e4b-444d-a576-09518f7145ed",
+          "name": "Filtre Kahve",
+          "description": "",
+          "price": 130,
+          "imageUrl": "https://kitchrest-public.s3.amazonaws.com/products/da5f3dcb-9080-4fa3-8ef1-72eecd6612d2/product_6731d18a-3e4b-444d-a576-09518f7145ed.jpg",
+          "isAvailable": true
+        },
+        {
+          "id": "beff7752-c0ed-4805-a397-8354f786d49e",
+          "name": "Cortado",
+          "description": "",
+          "price": 150,
+          "imageUrl": "https://kitchrest-public.s3.amazonaws.com/products/da5f3dcb-9080-4fa3-8ef1-72eecd6612d2/product_beff7752-c0ed-4805-a397-8354f786d49e.jpg",
+          "isAvailable": true
+        },
+        {
+          "id": "bc20dde3-802a-4fe9-9e4b-e7a516455432",
+          "name": "Menengiç kahvesi",
+          "description": "",
+          "price": 90,
+          "isAvailable": true
+        },
+        {
+          "id": "9318d9b5-3192-4ba0-8f2f-4ce781982f33",
+          "name": "Duble Türk kahvesi",
+          "description": "",
+          "price": 130,
+          "isAvailable": true
+        },
+        {
+          "id": "6613478c-5c9e-49c3-8fd3-023eb9ba4ba8",
+          "name": "LATTE MACCHİATO",
+          "description": "",
+          "price": 170,
+          "isAvailable": true
+        },
+        {
+          "id": "50a17a70-466b-4c74-9d09-f160c6412a0a",
+          "name": "Espresso",
+          "description": "",
+          "price": 100,
+          "isAvailable": true
+        },
+        {
+          "id": "f2d9c6ce-b903-4c2f-bd8e-4b2acfd902e6",
+          "name": "Duble espresso",
+          "description": "",
+          "price": 130,
+          "isAvailable": true
+        },
+        {
+          "id": "4344d485-cc5e-4a4a-8152-26a4d179aaa4",
+          "name": "White mocha",
+          "description": "",
+          "price": 180,
+          "isAvailable": true
+        },
+        {
+          "id": "cc72be52-3d99-4883-82ba-0aee79e22426",
+          "name": "Ekstra shot",
+          "description": "",
+          "price": 80,
+          "isAvailable": true
+        },
+        {
+          "id": "c885550c-a1d5-41ee-a4e4-69087f809d00",
+          "name": "Duble menegiç",
+          "description": "",
+          "price": 150,
+          "isAvailable": true
+        },
+        {
+          "id": "13a6bf16-fd4a-407c-a6ea-0ff1848bfbd0",
+          "name": "Duble Damla sakızı türk kahvesi",
+          "description": "",
+          "price": 140,
+          "isAvailable": true
+        },
+        {
+          "id": "63b51b69-2c78-4ef8-b898-f15abd312a00",
+          "name": "Duble dibek kahvesi",
+          "description": "",
+          "price": 140,
+          "isAvailable": true
+        },
+        {
+          "id": "d656286d-78d3-4573-99c7-26db5f50e31f",
+          "name": "Tahinli latte",
+          "description": "",
+          "price": 200,
+          "isAvailable": true
+        }
+      ],
+      "imageUrl": "https://kitchrest-public.s3.amazonaws.com/categories/da5f3dcb-9080-4fa3-8ef1-72eecd6612d2/category_a0b39cd3-4f02-4c9b-9539-2d05e9bc57f7.jpg"
+    },
+    {
+      "id": "e205bcce-8105-4ef6-ab4d-94c2418b171b",
+      "name": "Soğuk Kahveler",
+      "displayOrder": 2,
+      "products": [
+        {
+          "id": "b57f5b2f-6b85-4d3f-bb5a-509c6eca226f",
+          "name": "Ice Americano",
+          "description": "",
+          "price": 160,
+          "imageUrl": "https://kitchrest-public.s3.amazonaws.com/products/da5f3dcb-9080-4fa3-8ef1-72eecd6612d2/product_b57f5b2f-6b85-4d3f-bb5a-509c6eca226f.jpg",
+          "isAvailable": true
+        },
+        {
+          "id": "aaf9f940-4af7-4e4b-ab19-252d355052a4",
+          "name": "Ice Latte",
+          "description": "",
+          "price": 170,
+          "imageUrl": "https://kitchrest-public.s3.amazonaws.com/products/da5f3dcb-9080-4fa3-8ef1-72eecd6612d2/product_aaf9f940-4af7-4e4b-ab19-252d355052a4.jpg",
+          "isAvailable": true
+        },
+        {
+          "id": "ba7590ad-f32b-4085-9164-4dad872b6e52",
+          "name": "Ice Macchiato",
+          "description": "",
+          "price": 170,
+          "imageUrl": "https://kitchrest-public.s3.amazonaws.com/products/da5f3dcb-9080-4fa3-8ef1-72eecd6612d2/product_ba7590ad-f32b-4085-9164-4dad872b6e52.jpg",
+          "isAvailable": true
+        },
+        {
+          "id": "4b5ca9cc-fc7f-42ca-996c-b038f3ce50a9",
+          "name": "Frappe",
+          "description": "",
+          "price": 170,
+          "imageUrl": "https://kitchrest-public.s3.amazonaws.com/products/da5f3dcb-9080-4fa3-8ef1-72eecd6612d2/product_4b5ca9cc-fc7f-42ca-996c-b038f3ce50a9.jpg",
+          "isAvailable": true
+        },
+        {
+          "id": "ae40f03c-0c01-4694-a907-a13deec3808c",
+          "name": "Ice Mocha",
+          "description": "",
+          "price": 190,
+          "imageUrl": "https://kitchrest-public.s3.amazonaws.com/products/da5f3dcb-9080-4fa3-8ef1-72eecd6612d2/product_ae40f03c-0c01-4694-a907-a13deec3808c.jpg",
+          "isAvailable": true
+        },
+        {
+          "id": "5d15419c-056e-43e4-bf8c-176a77f62bb8",
+          "name": "Affogato",
+          "description": "",
+          "price": 250,
+          "imageUrl": "https://kitchrest-public.s3.amazonaws.com/products/da5f3dcb-9080-4fa3-8ef1-72eecd6612d2/product_5d15419c-056e-43e4-bf8c-176a77f62bb8.jpg",
+          "isAvailable": true
+        },
+        {
+          "id": "7b17b4c3-fe80-4e32-84bf-b07be9cc17e9",
+          "name": "Freddo",
+          "description": "",
+          "price": 170,
+          "imageUrl": "https://kitchrest-public.s3.amazonaws.com/products/da5f3dcb-9080-4fa3-8ef1-72eecd6612d2/product_7b17b4c3-fe80-4e32-84bf-b07be9cc17e9.jpg",
+          "isAvailable": true
+        },
+        {
+          "id": "9ff7ec9b-ba7f-4912-87a9-3f008386b2cc",
+          "name": "Cold Brew",
+          "description": "",
+          "price": 150,
+          "imageUrl": "https://kitchrest-public.s3.amazonaws.com/products/da5f3dcb-9080-4fa3-8ef1-72eecd6612d2/product_9ff7ec9b-ba7f-4912-87a9-3f008386b2cc.jpeg",
+          "isAvailable": true
+        },
+        {
+          "id": "4fd59071-2ae8-47cf-9584-e29731cbdaee",
+          "name": "Cold Brew Latte",
+          "description": "",
+          "price": 170,
+          "imageUrl": "https://kitchrest-public.s3.amazonaws.com/products/da5f3dcb-9080-4fa3-8ef1-72eecd6612d2/product_4fd59071-2ae8-47cf-9584-e29731cbdaee.jpeg",
+          "isAvailable": true
+        },
+        {
+          "id": "726f8f32-a134-4ed0-8c2f-a279810d0f2b",
+          "name": "Red Eye",
+          "description": "",
+          "price": 200,
+          "imageUrl": "https://kitchrest-public.s3.amazonaws.com/products/da5f3dcb-9080-4fa3-8ef1-72eecd6612d2/product_726f8f32-a134-4ed0-8c2f-a279810d0f2b.jpg",
+          "isAvailable": true
+        },
+        {
+          "id": "1cb06c1f-b1c3-4cf6-8112-fc5eab0c0a1b",
+          "name": "Frapiçino",
+          "description": "",
+          "price": 200,
+          "isAvailable": true
+        },
+        {
+          "id": "7f5813ba-8230-41f1-9d57-38e1a6cf45b5",
+          "name": "ICE Ekstra shot",
+          "description": "",
+          "price": 50,
+          "isAvailable": true
+        },
+        {
+          "id": "18655c28-c09b-405e-b712-6f174be68f4e",
+          "name": "strawbery ICE MOCHA",
+          "description": "",
+          "price": 190,
+          "isAvailable": true
+        }
+      ],
+      "imageUrl": "https://kitchrest-public.s3.amazonaws.com/categories/da5f3dcb-9080-4fa3-8ef1-72eecd6612d2/category_e205bcce-8105-4ef6-ab4d-94c2418b171b.jpg"
+    },
+    {
+      "id": "97cdaa1e-4af9-419d-bcaa-7a38818775ab",
+      "name": "Sıcak İçecekler",
+      "displayOrder": 4,
+      "products": [
+        {
+          "id": "bb88ec18-4948-4fc5-8ea1-fe8f0131dc05",
+          "name": "Bardak Çay",
+          "description": "",
+          "price": 30,
+          "imageUrl": "https://kitchrest-public.s3.amazonaws.com/products/da5f3dcb-9080-4fa3-8ef1-72eecd6612d2/product_bb88ec18-4948-4fc5-8ea1-fe8f0131dc05.jpg",
+          "isAvailable": true
+        },
+        {
+          "id": "16fcffc0-7f6f-4924-b687-0e155dc59dfe",
+          "name": "Salep",
+          "description": "",
+          "price": 150,
+          "imageUrl": "https://kitchrest-public.s3.amazonaws.com/products/da5f3dcb-9080-4fa3-8ef1-72eecd6612d2/product_16fcffc0-7f6f-4924-b687-0e155dc59dfe.jpg",
+          "isAvailable": true
+        },
+        {
+          "id": "aa305d9d-ec49-4494-b5d2-973a3b93c90a",
+          "name": "Sıcak Çikolata",
+          "description": "",
+          "price": 150,
+          "imageUrl": "https://kitchrest-public.s3.amazonaws.com/products/da5f3dcb-9080-4fa3-8ef1-72eecd6612d2/product_aa305d9d-ec49-4494-b5d2-973a3b93c90a.jpg",
+          "isAvailable": true
+        },
+        {
+          "id": "a4f5f6b3-947f-4fda-adb2-33214e5bd899",
+          "name": "Fincan Çay",
+          "description": "",
+          "price": 60,
+          "imageUrl": "https://kitchrest-public.s3.amazonaws.com/products/da5f3dcb-9080-4fa3-8ef1-72eecd6612d2/product_a4f5f6b3-947f-4fda-adb2-33214e5bd899.jpg",
+          "isAvailable": true
+        },
+        {
+          "id": "419195fb-814f-455b-aea8-1fdbaf2658d6",
+          "name": "Süt",
+          "description": "",
+          "price": 100,
+          "isAvailable": true
+        },
+        {
+          "id": "8efb22f1-518d-4715-bc76-477a0fef4d63",
+          "name": "Karton bardak çay",
+          "description": "",
+          "price": 80,
+          "isAvailable": true
+        }
+      ],
+      "imageUrl": "https://kitchrest-public.s3.amazonaws.com/categories/da5f3dcb-9080-4fa3-8ef1-72eecd6612d2/category_97cdaa1e-4af9-419d-bcaa-7a38818775ab.jpg"
+    },
+    {
+      "id": "a5dc57a6-5161-4eaa-b121-707a337869c6",
+      "name": "Soğuk İçecekler",
+      "displayOrder": 5,
+      "products": [
+        {
+          "id": "51ef5fc1-8332-47e8-bbfd-4cef2940ad47",
+          "name": "Su",
+          "description": "",
+          "price": 20,
+          "imageUrl": "https://kitchrest-public.s3.amazonaws.com/products/da5f3dcb-9080-4fa3-8ef1-72eecd6612d2/product_51ef5fc1-8332-47e8-bbfd-4cef2940ad47.jpg",
+          "isAvailable": true
+        },
+        {
+          "id": "5096d780-6318-45ab-bdc0-c3c01b01d1e4",
+          "name": "Soda",
+          "description": "",
+          "price": 50,
+          "imageUrl": "https://kitchrest-public.s3.amazonaws.com/products/da5f3dcb-9080-4fa3-8ef1-72eecd6612d2/product_5096d780-6318-45ab-bdc0-c3c01b01d1e4.jpg",
+          "isAvailable": true
+        },
+        {
+          "id": "7d49093a-edfc-47c7-b73b-d2794d5b62ce",
+          "name": "Churchill",
+          "description": "",
+          "price": 70,
+          "imageUrl": "https://kitchrest-public.s3.amazonaws.com/products/da5f3dcb-9080-4fa3-8ef1-72eecd6612d2/product_7d49093a-edfc-47c7-b73b-d2794d5b62ce.jpg",
+          "isAvailable": true
+        },
+        {
+          "id": "855db601-4d18-4338-8867-711b0fd8608c",
+          "name": "Milkshake",
+          "description": "",
+          "price": 200,
+          "imageUrl": "https://kitchrest-public.s3.amazonaws.com/products/da5f3dcb-9080-4fa3-8ef1-72eecd6612d2/product_855db601-4d18-4338-8867-711b0fd8608c.jpg",
+          "isAvailable": true
+        },
+        {
+          "id": "24cb146e-4c09-41ef-9f30-549126d6578b",
+          "name": "Limonata",
+          "description": "",
+          "price": 150,
+          "imageUrl": "https://kitchrest-public.s3.amazonaws.com/products/da5f3dcb-9080-4fa3-8ef1-72eecd6612d2/product_24cb146e-4c09-41ef-9f30-549126d6578b.jpg",
+          "isAvailable": true
+        },
+        {
+          "id": "ff334b3d-7168-45a6-ad84-e5345703dda0",
+          "name": "Frozen",
+          "description": "",
+          "price": 200,
+          "imageUrl": "https://kitchrest-public.s3.amazonaws.com/products/da5f3dcb-9080-4fa3-8ef1-72eecd6612d2/product_ff334b3d-7168-45a6-ad84-e5345703dda0.jpg",
+          "isAvailable": true
+        },
+        {
+          "id": "5b98c0d7-f3d3-4bac-9d0e-dd5633031b1d",
+          "name": "Elmalı Limonata",
+          "description": "",
+          "price": 180,
+          "imageUrl": "https://kitchrest-public.s3.amazonaws.com/products/da5f3dcb-9080-4fa3-8ef1-72eecd6612d2/product_5b98c0d7-f3d3-4bac-9d0e-dd5633031b1d.jpg",
+          "isAvailable": true
+        },
+        {
+          "id": "72835716-cf09-4d6d-a254-2f85aaf28205",
+          "name": "Cool Lime",
+          "description": "",
+          "price": 150,
+          "imageUrl": "https://kitchrest-public.s3.amazonaws.com/products/da5f3dcb-9080-4fa3-8ef1-72eecd6612d2/product_72835716-cf09-4d6d-a254-2f85aaf28205.jpg",
+          "isAvailable": true
+        },
+        {
+          "id": "924ec25a-4b27-42e2-b758-8cef2a12e4f8",
+          "name": "Kokteyil",
+          "description": "",
+          "price": 200,
+          "isAvailable": true
+        },
+        {
+          "id": "46e86a70-aad3-4003-bc58-dfda78c8a900",
+          "name": "İtalyan soda",
+          "description": "",
+          "price": 140,
+          "isAvailable": true
+        },
+        {
+          "id": "00a19d9d-0675-4d25-8e15-b61fda23f253",
+          "name": "meyve suyu",
+          "description": "",
+          "price": 60,
+          "isAvailable": true
+        },
+        {
+          "id": "e639ee4b-4c1d-4134-b534-6d230bb7639e",
+          "name": "Soğuk çikolata",
+          "description": "",
+          "price": 180,
+          "isAvailable": true
+        },
+        {
+          "id": "61dfaa81-aa8a-4624-ae33-770bb2d0c8c1",
+          "name": "Karadut",
+          "description": "",
+          "price": 150,
+          "isAvailable": true
+        },
+        {
+          "id": "b8e60393-69ce-40cb-bd31-dff3f901da06",
+          "name": "Cola",
+          "description": "",
+          "price": 70,
+          "isAvailable": true
+        },
+        {
+          "id": "1d04928b-9543-461b-9ce2-d568cc9dfadc",
+          "name": "Ayran",
+          "description": "",
+          "price": 50,
+          "isAvailable": true
+        }
+      ],
+      "imageUrl": "https://kitchrest-public.s3.amazonaws.com/categories/da5f3dcb-9080-4fa3-8ef1-72eecd6612d2/category_a5dc57a6-5161-4eaa-b121-707a337869c6.jpg"
+    },
+    {
+      "id": "5c3e4ebe-867f-47f6-9811-a5abd08be0d7",
+      "name": "Tatlılar",
+      "displayOrder": 6,
+      "products": [
+        {
+          "id": "dfe82063-4b36-4b16-b581-67fe133c2a49",
+          "name": "Cookie",
+          "description": "",
+          "price": 100,
+          "isAvailable": true
+        },
+        {
+          "id": "1db866f8-3973-4cbd-862d-d205a158f277",
+          "name": "Fıstık Rüyası",
+          "description": "",
+          "price": 250,
+          "isAvailable": true
+        },
+        {
+          "id": "7ce40828-7ea6-4f7c-86d3-4e7fc6ce49ea",
+          "name": "Magnolya",
+          "description": "",
+          "price": 160,
+          "isAvailable": true
+        },
+        {
+          "id": "c99f38d6-1f1e-4996-87a9-b0c376699ac8",
+          "name": "Cheesecake",
+          "description": "",
+          "price": 200,
+          "isAvailable": true
+        },
+        {
+          "id": "c5d5978b-ebfb-42b4-96ea-3369460847fd",
+          "name": "Profiterol",
+          "description": "",
+          "price": 200,
+          "isAvailable": true
+        },
+        {
+          "id": "74fa6b92-5d80-4dcf-9d25-03c2c51054af",
+          "name": "Brownie",
+          "description": "",
+          "price": 240,
+          "isAvailable": true
+        },
+        {
+          "id": "21ca52ef-b850-462d-b184-ec507da78bf7",
+          "name": "Trileçe",
+          "description": "",
+          "price": 180,
+          "isAvailable": true
+        },
+        {
+          "id": "9c843c91-25db-4cd5-b746-7376614172d4",
+          "name": "San Sebastian Belçika Çikolatalı",
+          "description": "",
+          "price": 250,
+          "imageUrl": "https://kitchrest-public.s3.amazonaws.com/products/da5f3dcb-9080-4fa3-8ef1-72eecd6612d2/product_9c843c91-25db-4cd5-b746-7376614172d4.jpg",
+          "isAvailable": true
+        },
+        {
+          "id": "9e6c4a9b-dcbd-4be4-a6fb-ef86f60c0b81",
+          "name": "Latte Pasta",
+          "description": "",
+          "price": 180,
+          "isAvailable": true
+        },
+        {
+          "id": "b5accf17-c460-4646-9e2a-f3c6dd36c9d7",
+          "name": "Tiramisu",
+          "description": "",
+          "price": 200,
+          "imageUrl": "https://kitchrest-public.s3.amazonaws.com/products/da5f3dcb-9080-4fa3-8ef1-72eecd6612d2/product_b5accf17-c460-4646-9e2a-f3c6dd36c9d7.png",
+          "isAvailable": true
+        },
+        {
+          "id": "aa710fac-0b16-4c0c-baca-8ea1439a189f",
+          "name": "Kap pasta  (AMONYAKLI PASTA)",
+          "description": "",
+          "price": 170,
+          "isAvailable": true
+        },
+        {
+          "id": "dea7b3e0-1ef1-4ec4-a083-d58413f723ab",
+          "name": "Islak kek",
+          "description": "",
+          "price": 150,
+          "isAvailable": true
+        },
+        {
+          "id": "cd59dc6d-ec08-45f6-a78d-65eaa9dc0a96",
+          "name": "Soğuk baklava",
+          "description": "",
+          "price": 280,
+          "imageUrl": "https://kitchrest-public.s3.amazonaws.com/products/da5f3dcb-9080-4fa3-8ef1-72eecd6612d2/cd59dc6d-ec08-45f6-a78d-65eaa9dc0a96.jpeg",
+          "isAvailable": true
+        },
+        {
+          "id": "06695cf3-de2a-43ae-ba56-b4ab1e88a820",
+          "name": "Supangle",
+          "description": "",
+          "price": 150,
+          "isAvailable": true
+        },
+        {
+          "id": "aeb581a6-3187-4386-aa40-b79f716b38dc",
+          "name": "Truf Top 4 lü",
+          "description": "",
+          "price": 100,
+          "imageUrl": "https://kitchrest-public.s3.amazonaws.com/products/da5f3dcb-9080-4fa3-8ef1-72eecd6612d2/product_aeb581a6-3187-4386-aa40-b79f716b38dc.jpg",
+          "isAvailable": true
+        },
+        {
+          "id": "441f3edf-dc14-48b9-a9a4-80bdbd48ad2e",
+          "name": "Kıbrıs tatlısı",
+          "description": "",
+          "price": 150,
+          "isAvailable": true
+        },
+        {
+          "id": "42498ecf-c1c6-429c-9950-c3ebc60ec747",
+          "name": "Ekler",
+          "description": "",
+          "price": 35,
+          "isAvailable": true
+        },
+        {
+          "id": "5c4a5979-034a-4bed-aad6-f13de90c157f",
+          "name": "Coco star pasta",
+          "description": "",
+          "price": 150,
+          "isAvailable": true
+        },
+        {
+          "id": "5f999c0f-8267-42dd-9992-efa844a69cdf",
+          "name": "Sultan sarması",
+          "description": "",
+          "price": 130,
+          "isAvailable": true
+        },
+        {
+          "id": "cd5a4cb3-5a61-4626-ab07-40906496c803",
+          "name": "Ganajli pasta",
+          "description": "",
+          "price": 140,
+          "isAvailable": true
+        },
+        {
+          "id": "6c925843-c94d-4cab-a0e7-01d55c7508aa",
+          "name": "Kum pasta",
+          "description": "",
+          "price": 140,
+          "isAvailable": true
+        },
+        {
+          "id": "1be1656e-7ec3-43e2-918b-84d93173f590",
+          "name": "Kardelen pasta",
+          "description": "",
+          "price": 160,
+          "isAvailable": true
+        },
+        {
+          "id": "397870d7-a5c4-4b8b-a33c-0cffdcb4b2b0",
+          "name": "Kış pastası",
+          "description": "",
+          "price": 150,
+          "isAvailable": true
+        },
+        {
+          "id": "e4915e92-d755-40cd-94d3-8b71759a0161",
+          "name": "Çikolatalı pasta",
+          "description": "",
+          "price": 180,
+          "isAvailable": true
+        },
+        {
+          "id": "61ad74f0-01a4-4930-9947-296a1ede3168",
+          "name": "Alman pastası",
+          "description": "",
+          "price": 150,
+          "isAvailable": true
+        },
+        {
+          "id": "d4112a1b-b8fd-4f1f-8687-3bf7cc4a4194",
+          "name": "Dubai çikolatalı pasta",
+          "description": "",
+          "price": 230,
+          "isAvailable": true
+        },
+        {
+          "id": "0c5bdabd-6ea6-4987-82d9-809e33236a52",
+          "name": "Beyaz çikolatalı pasta",
+          "description": "",
+          "price": 180,
+          "isAvailable": true
+        },
+        {
+          "id": "3bff56ba-99c2-4875-8728-72f9aa877f11",
+          "name": "Çikolata şöleni",
+          "description": "",
+          "price": 200,
+          "isAvailable": true
+        },
+        {
+          "id": "3e93fa52-91fd-426b-b383-3b023e70d0be",
+          "name": "Mozaik pasta",
+          "description": "",
+          "price": 100,
+          "isAvailable": true
+        },
+        {
+          "id": "b03d802e-1862-43f2-bc9d-24b6e30c1d53",
+          "name": "Ağlayan pasta",
+          "description": "",
+          "price": 180,
+          "isAvailable": true
+        },
+        {
+          "id": "4479718e-e7e6-4d8f-8698-c30e14c473dd",
+          "name": "Medovick (Balli pasta)",
+          "description": "",
+          "price": 200,
+          "isAvailable": true
+        },
+        {
+          "id": "759e22f9-4a3c-4c56-b981-9434240e5344",
+          "name": "Profiterol pasta",
+          "description": "",
+          "price": 250,
+          "isAvailable": true
+        },
+        {
+          "id": "44882251-4d3a-4d3e-a8fe-c45f1a6c6ed5",
+          "name": "Brezilya pastası",
+          "description": "",
+          "price": 160,
+          "isAvailable": true
+        },
+        {
+          "id": "efb4e579-8b6c-4cda-b988-8333cb0cea9b",
+          "name": "Güllaç muhalebili",
+          "description": "",
+          "price": 200,
+          "isAvailable": true
+        },
+        {
+          "id": "8edd6194-ee30-4564-a3ce-1f0d4d68787a",
+          "name": "paris brest",
+          "description": "",
+          "price": 150,
+          "isAvailable": true
+        },
+        {
+          "id": "cd4ec396-2666-4856-b011-191cc865f3f9",
+          "name": "Lotus kardelen pasta",
+          "description": "",
+          "price": 250,
+          "isAvailable": true
+        },
+        {
+          "id": "6126de0b-2233-4d67-837e-6cb1b73d3682",
+          "name": "Parfe",
+          "description": "",
+          "price": 120,
+          "isAvailable": true
+        },
+        {
+          "id": "cf2e72d0-5b58-493d-b01c-07c3a9693c0d",
+          "name": "Fıstıklı Ganalı pasta",
+          "description": "",
+          "price": 180,
+          "isAvailable": true
+        },
+        {
+          "id": "2d93175a-8e02-4b95-84dc-79af85e9a6e5",
+          "name": "Soğuk kadayıf",
+          "description": "",
+          "price": 240,
+          "isAvailable": true
+        },
+        {
+          "id": "eb907365-2c1f-43f6-a45c-ffed42f170b6",
+          "name": "Paket servis",
+          "description": "",
+          "price": 50,
+          "isAvailable": true
+        },
+        {
+          "id": "ca21cdb9-522e-43ab-af31-78bee0402f66",
+          "name": "Kazandibi",
+          "description": "",
+          "price": 200,
+          "isAvailable": true
+        },
+        {
+          "id": "a6e1495e-097b-42f1-ae07-74c97d0bcab0",
+          "name": "Malaga",
+          "description": "",
+          "price": 230,
+          "isAvailable": true
+        },
+        {
+          "id": "7113b77f-ddb1-47da-854b-9bb62dacc8ea",
+          "name": "İzmir bomba",
+          "description": "",
+          "price": 80,
+          "isAvailable": true
+        },
+        {
+          "id": "3b5f98df-41c9-42e2-8d64-934cde8503f3",
+          "name": "Depozito ücreti",
+          "description": "",
+          "price": 50,
+          "isAvailable": true
+        },
+        {
+          "id": "a61ef935-6ff3-45f4-991b-e7e5462d3814",
+          "name": "Dilim pasta",
+          "description": "",
+          "price": 250,
+          "isAvailable": true
+        },
+        {
+          "id": "8eae79fb-7624-43bb-b372-01c5524522cf",
+          "name": "Fransız ekler",
+          "description": "",
+          "price": 250,
+          "isAvailable": true
+        },
+        {
+          "id": "7c723d86-8c9a-4312-805f-eb9c03f1b064",
+          "name": "Polka",
+          "description": "",
+          "price": 250,
+          "isAvailable": true
+        },
+        {
+          "id": "1ca8e4d9-d465-40c1-81f9-28d0e13e366b",
+          "name": "Pavlova",
+          "description": "",
+          "price": 250,
+          "isAvailable": true
+        },
+        {
+          "id": "9bc9b4ad-567c-45d5-a2d4-872d670dec6a",
+          "name": "Panna cotta",
+          "description": "",
+          "price": 150,
+          "isAvailable": true
+        },
+        {
+          "id": "da69a291-0f30-4f4b-89e7-1b4bd58183a8",
+          "name": "Sultan pasta",
+          "description": "",
+          "price": 200,
+          "isAvailable": true
+        },
+        {
+          "id": "85e2a265-213c-43ed-ab8f-d0c478fb7ac5",
+          "name": "Çıtır profiterol",
+          "description": "",
+          "price": 150,
+          "isAvailable": true
+        },
+        {
+          "id": "f57cb4dd-e727-44b1-8460-c286f110cc13",
+          "name": "Fırın sütlaç",
+          "description": "",
+          "price": 150,
+          "isAvailable": true
+        },
+        {
+          "id": "b4215e6d-24b5-4e77-98a6-f3aea1c383d3",
+          "name": "Mc vites bisküvi kremalı pasta",
+          "description": "",
+          "price": 200,
+          "isAvailable": true
+        },
+        {
+          "id": "277256cb-6429-44fe-a2ca-2a3603dc0fb0",
+          "name": "Bademli muhallebi",
+          "description": "",
+          "price": 130,
+          "isAvailable": true
+        },
+        {
+          "id": "ad0cca96-b84c-431b-a512-c9e3bbf21b2b",
+          "name": "3 adet ekler",
+          "description": "",
+          "price": 100,
+          "isAvailable": true
+        }
+      ],
+      "imageUrl": "https://kitchrest-public.s3.amazonaws.com/categories/da5f3dcb-9080-4fa3-8ef1-72eecd6612d2/category_5c3e4ebe-867f-47f6-9811-a5abd08be0d7.jpg"
+    },
+    {
+      "id": "f16ec24d-d1f2-4510-b30f-1eb86668f5a6",
+      "name": "Özel Çaylar",
+      "displayOrder": 7,
+      "products": [
+        {
+          "id": "949dec81-c305-4640-af1d-27c77e6e4ba3",
+          "name": "Papatya çayı",
+          "description": "",
+          "price": 120,
+          "imageUrl": "https://kitchrest-public.s3.amazonaws.com/products/da5f3dcb-9080-4fa3-8ef1-72eecd6612d2/product_949dec81-c305-4640-af1d-27c77e6e4ba3.jpg",
+          "isAvailable": true
+        },
+        {
+          "id": "9baebf82-c7c4-4dfe-a852-cf0b6330ef19",
+          "name": "Nane Limon",
+          "description": "",
+          "price": 120,
+          "imageUrl": "https://kitchrest-public.s3.amazonaws.com/products/da5f3dcb-9080-4fa3-8ef1-72eecd6612d2/product_9baebf82-c7c4-4dfe-a852-cf0b6330ef19.jpg",
+          "isAvailable": true
+        },
+        {
+          "id": "a711acc2-63e5-4420-85a9-6e2d32d07393",
+          "name": "Ihlamur",
+          "description": "",
+          "price": 120,
+          "imageUrl": "https://kitchrest-public.s3.amazonaws.com/products/da5f3dcb-9080-4fa3-8ef1-72eecd6612d2/product_a711acc2-63e5-4420-85a9-6e2d32d07393.jpg",
+          "isAvailable": true
+        },
+        {
+          "id": "66809b65-1a5d-460c-8558-a49b897be813",
+          "name": "Ada çayı",
+          "description": "",
+          "price": 120,
+          "imageUrl": "https://kitchrest-public.s3.amazonaws.com/products/da5f3dcb-9080-4fa3-8ef1-72eecd6612d2/product_66809b65-1a5d-460c-8558-a49b897be813.jpg",
+          "isAvailable": true
+        },
+        {
+          "id": "60706f0c-a357-4090-b2e3-9c7ed947003a",
+          "name": "Melisa çayı",
+          "description": "",
+          "price": 120,
+          "imageUrl": "https://kitchrest-public.s3.amazonaws.com/products/da5f3dcb-9080-4fa3-8ef1-72eecd6612d2/product_60706f0c-a357-4090-b2e3-9c7ed947003a.jpeg",
+          "isAvailable": true
+        },
+        {
+          "id": "a6615878-1d2f-4f5b-9942-3c5f9d9d119a",
+          "name": "Kış çayı",
+          "description": "",
+          "price": 120,
+          "imageUrl": "https://kitchrest-public.s3.amazonaws.com/products/da5f3dcb-9080-4fa3-8ef1-72eecd6612d2/product_a6615878-1d2f-4f5b-9942-3c5f9d9d119a.jpeg",
+          "isAvailable": true
+        },
+        {
+          "id": "a690f545-4b2c-4446-9c25-89fdf50e08a3",
+          "name": "Yeşil çay",
+          "description": "",
+          "price": 120,
+          "isAvailable": true
+        }
+      ],
+      "imageUrl": "https://kitchrest-public.s3.amazonaws.com/categories/da5f3dcb-9080-4fa3-8ef1-72eecd6612d2/category_f16ec24d-d1f2-4510-b30f-1eb86668f5a6.jpeg"
+    },
+    {
+      "id": "117d9806-935d-48a8-ac94-288d4aca28b0",
+      "name": "Waffle",
+      "displayOrder": 8,
+      "products": [
+        {
+          "id": "4caaee2a-f2f7-4de9-aa89-4c3f7d97dab5",
+          "name": "Bardak Waffle",
+          "description": "",
+          "price": 150,
+          "isAvailable": true
+        },
+        {
+          "id": "692614a1-c4fb-41a9-9842-497f9324a3f3",
+          "name": "Bubble Waffle",
+          "description": "",
+          "price": 280,
+          "isAvailable": true
+        },
+        {
+          "id": "890f5462-1fe6-4c67-9a16-74bf809e3b31",
+          "name": "Duble Bubble",
+          "description": "",
+          "price": 400,
+          "isAvailable": true
+        }
+      ]
+    },
+    {
+      "id": "5a4b5864-bc5d-48ec-a216-1e4aa6ab4d70",
+      "name": "Paket kahve",
+      "displayOrder": 9,
+      "products": [
+        {
+          "id": "16f487e1-5dbb-4a9c-9861-564b200f42b0",
+          "name": "Türk kahvesi 100 gr",
+          "description": "",
+          "price": 100,
+          "isAvailable": true
+        },
+        {
+          "id": "292e256e-c030-4d20-90d4-128305378a97",
+          "name": "Filitre kahve 100 gr",
+          "description": "",
+          "price": 150,
+          "isAvailable": true
+        },
+        {
+          "id": "74d6d664-bdbd-4a06-957f-f8975953ebaa",
+          "name": "Espresso 100gr",
+          "description": "",
+          "price": 200,
+          "isAvailable": true
+        },
+        {
+          "id": "4dfaedfb-9218-4078-9572-6e8192c75586",
+          "name": "Çekirdek espresso 100gr",
+          "description": "",
+          "price": 180,
+          "isAvailable": true
+        },
+        {
+          "id": "24657340-1519-4e8c-acb1-f32b1156b943",
+          "name": "Çekirdek espresso 1 kg",
+          "description": "",
+          "price": 1400,
+          "isAvailable": true
+        },
+        {
+          "id": "64bca1c1-a463-4431-872b-320dfbb87537",
+          "name": "Çekirdek filitre",
+          "description": "",
+          "price": 1100,
+          "isAvailable": true
+        }
+      ]
+    },
+    {
+      "id": "5d0007fe-1e97-4194-a2fe-326be0dfa901",
+      "name": "Fondü",
+      "displayOrder": 11,
+      "products": [
+        {
+          "id": "3aa5a061-9078-4430-acb9-3edff3ad3171",
+          "name": "Fondü",
+          "description": "",
+          "price": 150,
+          "isAvailable": true
+        },
+        {
+          "id": "ae5652f6-9a5a-4118-9002-f65382011459",
+          "name": "Soğuk fondü",
+          "description": "",
+          "price": 80,
+          "isAvailable": true
+        }
+      ]
+    },
+    {
+      "id": "ed2b0307-1e42-4cce-ba8e-1a47c70031b7",
+      "name": "Domdurma",
+      "displayOrder": 12,
+      "products": [
+        {
+          "id": "daa8ee54-1ecc-440a-a58b-8fc2eeb864cf",
+          "name": "Top dondurma",
+          "description": "",
+          "price": 50,
+          "isAvailable": true
+        },
+        {
+          "id": "792b8500-d116-4716-89a3-78c546908d23",
+          "name": "2 top dondurma",
+          "description": "",
+          "price": 100,
+          "isAvailable": true
+        },
+        {
+          "id": "6805fe35-1213-49c8-9dba-acc61623b8e7",
+          "name": "3 top dondurma",
+          "description": "",
+          "price": 150,
+          "isAvailable": true
+        },
+        {
+          "id": "418ae2d3-eac2-4a69-8dc2-a9770ce2ec69",
+          "name": "Kase dondurma (4top)",
+          "description": "",
+          "price": 180,
+          "isAvailable": true
+        },
+        {
+          "id": "74d08691-07c4-4590-9376-4304cc899c16",
+          "name": "500gr dondurma",
+          "description": "",
+          "price": 450,
+          "isAvailable": true
+        },
+        {
+          "id": "02f2bf7e-197c-498b-ba40-c44607a58725",
+          "name": "1 kg dondurma",
+          "description": "",
+          "price": 900,
+          "isAvailable": true
+        }
+      ]
+    },
+    {
+      "id": "b6f56dfa-f5b6-4c73-b20b-2a007cd25166",
+      "name": "Paket pasta",
+      "displayOrder": 13,
+      "products": [
+        {
+          "id": "575418b7-714a-417e-90d0-3afcd0a37e30",
+          "name": "0 numara pasta",
+          "description": "",
+          "price": 650,
+          "isAvailable": true
+        },
+        {
+          "id": "e764f52c-a98d-4c00-b3ce-f0cb10995c10",
+          "name": "1 numara pasta",
+          "description": "",
+          "price": 750,
+          "isAvailable": true
+        },
+        {
+          "id": "01bd49ea-14cf-494b-8cc5-82ce11695b41",
+          "name": "2 numara pasta",
+          "description": "",
+          "price": 900,
+          "isAvailable": true
+        },
+        {
+          "id": "7336f752-78ee-4dda-a237-d6a230d5db65",
+          "name": "Minik pasta",
+          "description": "",
+          "price": 250,
+          "isAvailable": true
+        }
+      ]
+    },
+    {
+      "id": "11e203f1-dd96-4000-93a6-9129fdac2e81",
+      "name": "Bakalava",
+      "displayOrder": 14,
+      "products": [
+        {
+          "id": "88e47287-91bf-413b-b71e-c3f8098b09de",
+          "name": "MİDYE 4 ADET",
+          "description": "",
+          "price": 200,
+          "isAvailable": true
+        },
+        {
+          "id": "d11f44e5-ad2b-4c3a-8c1a-fcaf4d95de50",
+          "name": "Kadayıf dilim",
+          "description": "",
+          "price": 150,
+          "isAvailable": true
+        },
+        {
+          "id": "1229d0ec-23f8-4bcf-8a46-3469ec59ac30",
+          "name": "Antep sarma 4 adet",
+          "description": "",
+          "price": 200,
+          "isAvailable": true
+        },
+        {
+          "id": "068fd1b4-3925-48fa-b2e0-6467890b3399",
+          "name": "Şöbiyet kaymaklı 3 adet",
+          "description": "",
+          "price": 200,
+          "isAvailable": true
+        },
+        {
+          "id": "f7fe4b34-540e-4f8e-b93f-bdb89a3c139a",
+          "name": "Cevizli baklava",
+          "description": "",
+          "price": 180,
+          "isAvailable": true
+        },
+        {
+          "id": "353d8b67-0e00-4507-bf25-4a812736827f",
+          "name": "Ekmek kadayıfı",
+          "description": "",
+          "price": 230,
+          "isAvailable": true
+        },
+        {
+          "id": "31ec83f7-970f-4fb5-81d8-28a64b67db14",
+          "name": "kuru baklava 4 adet",
+          "description": "",
+          "price": 300,
+          "isAvailable": true
+        },
+        {
+          "id": "61b71fa4-b8e2-4bdc-886e-65bcea916687",
+          "name": "tulumba 5 adet",
+          "description": "",
+          "price": 100,
+          "isAvailable": true
+        }
+      ]
+    },
+    {
+      "id": "77253842-f375-46a6-ac0d-e2552fb77015",
+      "name": "Yiyecek",
+      "displayOrder": 15,
+      "products": [
+        {
+          "id": "fbbb3d72-2c89-4eeb-879d-48b09ccff14d",
+          "name": "Tost",
+          "description": "",
+          "price": 160,
+          "isAvailable": true
+        },
+        {
+          "id": "6518094a-80f1-4de9-9ecf-e9da089086b7",
+          "name": "BOMBA",
+          "description": "",
+          "price": 200,
+          "isAvailable": true
+        },
+        {
+          "id": "fe2f2300-b1c3-4e52-9ce7-e18850ff56dd",
+          "name": "PATATES KIZARTMASI",
+          "description": "",
+          "price": 200,
+          "isAvailable": true
+        },
+        {
+          "id": "a3d19eeb-06e4-4e20-b5f4-d40df05d6ea4",
+          "name": "GÖZLEME",
+          "description": "",
+          "price": 200,
+          "isAvailable": true
+        },
+        {
+          "id": "3559eaf1-1488-41ac-be32-54550c852575",
+          "name": "KÖFTE EKMEK",
+          "description": "",
+          "price": 500,
+          "isAvailable": true
+        },
+        {
+          "id": "8ba465e9-d617-4a3c-934d-1c6cec2bb3db",
+          "name": "KÖFTE PORSİYON",
+          "description": "",
+          "price": 650,
+          "isAvailable": true
+        }
+      ]
+    },
+    {
+      "id": "e9addfc3-f827-4bc2-8816-2e405ed8b68f",
+      "name": "Kampanya",
+      "displayOrder": 16,
+      "products": [
+        {
+          "id": "d7ed4917-a6bb-47bd-a014-4644b57c1fb9",
+          "name": "Kahve 50",
+          "description": "",
+          "price": 50,
+          "isAvailable": true
+        },
+        {
+          "id": "a2237561-e30c-4a5f-9468-51820918a05a",
+          "name": "Kahve 100",
+          "description": "",
+          "price": 100,
+          "isAvailable": true
+        }
+      ]
+    }
+  ]
+}

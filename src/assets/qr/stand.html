@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Laden - Masa QR Menü Standı</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&family=Playfair+Display:ital,wght@0,700;1,600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      background-color: #26170F;
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+    }
+    .print-controls {
+      margin-bottom: 24px;
+      display: flex;
+      gap: 12px;
+      background: rgba(255,255,255,0.08);
+      padding: 12px 20px;
+      border-radius: 100px;
+      backdrop-filter: blur(10px);
+    }
+    .btn {
+      background: #C65D3A;
+      color: white;
+      border: none;
+      padding: 10px 24px;
+      border-radius: 50px;
+      font-weight: 600;
+      font-size: 14px;
+      cursor: pointer;
+      box-shadow: 0 4px 14px rgba(198, 93, 58, 0.4);
+      transition: all 0.2s ease;
+    }
+    .btn:hover {
+      background: #d46944;
+      transform: translateY(-1px);
+    }
+    .btn-secondary {
+      background: rgba(255,255,255,0.15);
+      box-shadow: none;
+    }
+    .btn-secondary:hover {
+      background: rgba(255,255,255,0.25);
+    }
+
+    /* Masa Standı Kartı */
+    .stand-card {
+      width: 380px;
+      background: linear-gradient(165deg, #FAF6F0 0%, #F3EBDD 100%);
+      border-radius: 32px;
+      padding: 40px 32px;
+      text-align: center;
+      box-shadow: 0 25px 60px rgba(0,0,0,0.5), inset 0 0 0 1px rgba(198, 93, 58, 0.15);
+      position: relative;
+      overflow: hidden;
+    }
+    .stand-card::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 8px;
+      background: linear-gradient(90deg, #C65D3A, #DDA15E, #C65D3A);
+    }
+    .brand-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: rgba(198, 93, 58, 0.1);
+      color: #C65D3A;
+      padding: 6px 16px;
+      border-radius: 50px;
+      font-size: 11px;
+      font-weight: 800;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      margin-bottom: 20px;
+    }
+    .brand-title {
+      font-family: 'Playfair Display', serif;
+      font-size: 42px;
+      color: #2A180E;
+      font-weight: 700;
+      letter-spacing: -0.5px;
+      margin-bottom: 6px;
+      line-height: 1.1;
+    }
+    .brand-sub {
+      color: #7A5B47;
+      font-size: 14px;
+      font-weight: 500;
+      margin-bottom: 28px;
+    }
+    .qr-container {
+      background: #FFFFFF;
+      padding: 20px;
+      border-radius: 24px;
+      display: inline-block;
+      box-shadow: 0 10px 30px rgba(42, 24, 14, 0.08), inset 0 0 0 1px rgba(42, 24, 14, 0.05);
+      margin-bottom: 24px;
+      position: relative;
+    }
+    .qr-container img {
+      width: 220px;
+      height: 220px;
+      display: block;
+      border-radius: 8px;
+    }
+    .qr-icon {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 44px;
+      height: 44px;
+      background: #2A180E;
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #F7F1E3;
+      font-size: 20px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+      border: 3px solid white;
+    }
+    .instructions {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      color: #2A180E;
+      font-weight: 700;
+      font-size: 16px;
+      margin-bottom: 6px;
+    }
+    .sub-instructions {
+      color: #8C7362;
+      font-size: 12px;
+      font-weight: 500;
+    }
+    .url-chip {
+      margin-top: 24px;
+      display: inline-block;
+      background: rgba(42, 24, 14, 0.06);
+      color: #5C4033;
+      padding: 6px 14px;
+      border-radius: 8px;
+      font-size: 11px;
+      font-family: monospace;
+      font-weight: 600;
+      word-break: break-all;
+    }
+
+    @media print {
+      body {
+        background: white;
+        padding: 0;
+      }
+      .print-controls {
+        display: none !important;
+      }
+      .stand-card {
+        box-shadow: none;
+        border: 1px solid #ddd;
+        margin: auto;
+        page-break-inside: avoid;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="print-controls">
+    <button class="btn" onclick="window.print()">🖨️ Yazdır / PDF Kaydet</button>
+    <button class="btn btn-secondary" onclick="changeUrl()">✏️ URL'yi Değiştir</button>
+  </div>
+
+  <div class="stand-card" id="standCard">
+    <div class="brand-badge">Temassız Menü</div>
+    <h1 class="brand-title">Laden</h1>
+    <p class="brand-sub">Artisan Coffee & Bakery</p>
+
+    <div class="qr-container">
+      <img id="qrImage" src="data:image/png;base64,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" alt="Laden QR Menü" />
+      <div class="qr-icon">☕</div>
+    </div>
+
+    <div class="instructions">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#C65D3A" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path>
+        <circle cx="12" cy="13" r="4"></circle>
+      </svg>
+      <span>Kameranızla Taratın</span>
+    </div>
+    <p class="sub-instructions">Dijital menümüzü anında görüntüleyin</p>
+
+    <div class="url-chip" id="urlDisplay">https://laden-menu.vercel.app</div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/qrcode@1.5.3/build/qrcode.min.js"></script>
+  <script>
+    function changeUrl() {
+      const current = document.getElementById('urlDisplay').innerText;
+      const newUrl = prompt("QR Kodun yönlendireceği Vercel veya Menü URL'sini girin:", current);
+      if (newUrl && newUrl.trim()) {
+        const trimmed = newUrl.trim();
+        document.getElementById('urlDisplay').innerText = trimmed;
+        QRCode.toDataURL(trimmed, {
+          color: { dark: '#2A180E', light: '#FAF6F0' },
+          width: 500,
+          margin: 2,
+          errorCorrectionLevel: 'H'
+        }, function (err, url) {
+          if (!err) {
+            document.getElementById('qrImage').src = url;
+          }
+        });
+      }
+    }
+  </script>
+</body>
+</html>
