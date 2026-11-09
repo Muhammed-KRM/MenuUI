@@ -91,7 +91,7 @@ export class QrModalComponent implements OnInit {
 
   async generateQr(): Promise<void> {
     try {
-      const currentUrl = typeof window !== 'undefined' ? window.location.href : 'https://laden-menu.vercel.app';
+      const currentUrl = typeof window !== 'undefined' ? window.location.href : 'https://menu-ui-mu.vercel.app';
       const url = await QRCode.toDataURL(currentUrl, {
         color: {
           dark: '#2A180E',

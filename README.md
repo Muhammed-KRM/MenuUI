@@ -8,7 +8,7 @@ Laden için özel olarak tasarlanmış, backend bağımlılığı olmayan, ultra
 
 - **%100 Statik & Serverless:** Vercel, Netlify veya GitHub Pages üzerinde sıfır maliyetle çalışır.
 - **Modern UI & UX:** Koyu kahve ve sıcak krem tonlarında Laden marka kimliğine özel tasarım.
-- **14 Kategori & 155 Ürün:** Canlı arama, anında filtreleme ve ürün detay popup pencereleri.
+- **14 Kategori & 154 Ürün:** Canlı arama, anında filtreleme ve ürün detay popup pencereleri.
 - **Dinamik Masa & QR Sistemi:** Masalara özel URL parametreleri (`?table=Masa 5`), uygulama içi canlı QR görüntüleme ve A5 Masa Standı şablonu.
 - **Responsive:** Mobil, tablet ve masaüstü cihazlarla %100 uyumlu.
 

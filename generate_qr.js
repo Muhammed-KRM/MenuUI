@@ -3,7 +3,7 @@ const fs = require('fs');
 const path = require('path');
 
 async function generateQRCodes() {
-  const targetUrl = 'https://laden-menu.vercel.app';
+  const targetUrl = process.argv[2] || 'https://menu-ui-mu.vercel.app';
 
   const outputDir = path.join(__dirname, 'src', 'assets', 'qr');
   if (!fs.existsSync(outputDir)) {
@@ -288,7 +288,7 @@ async function generateQRCodes() {
   fs.writeFileSync(standPath, standHtml, 'utf8');
   console.log('✅ Masa Standı HTML oluşturuldu:', standPath);
 
-  const rootStandPath = path.join('D:', 'menüUI', 'MASA_QR_STANDI.html');
+  const rootStandPath = path.join(__dirname, 'MASA_QR_STANDI.html');
   fs.writeFileSync(rootStandPath, standHtml, 'utf8');
   console.log('✅ Kök dizine kopyalandı:', rootStandPath);
 }
