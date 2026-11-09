@@ -13,7 +13,24 @@
           "description": "",
           "price": 90,
           "imageUrl": "https://media.kitchrest.com/products/da5f3dcb-9080-4fa3-8ef1-72eecd6612d2/product_af73f067-7756-449c-863f-0dfeb4959713.jpg",
-          "isAvailable": true
+          "isAvailable": true,
+          "options": [
+            {
+              "name": "Türk Kahvesi",
+              "required": true,
+              "items": [
+                {
+                  "name": "Sade"
+                },
+                {
+                  "name": "Orta"
+                },
+                {
+                  "name": "Şekerli"
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "627b7b93-3a9e-44f1-a10f-8ab8fae8fd65",
@@ -21,7 +38,24 @@
           "description": "",
           "price": 100,
           "imageUrl": "https://media.kitchrest.com/products/da5f3dcb-9080-4fa3-8ef1-72eecd6612d2/product_627b7b93-3a9e-44f1-a10f-8ab8fae8fd65.jpg",
-          "isAvailable": true
+          "isAvailable": true,
+          "options": [
+            {
+              "name": "Türk Kahvesi",
+              "required": true,
+              "items": [
+                {
+                  "name": "Sade"
+                },
+                {
+                  "name": "Orta"
+                },
+                {
+                  "name": "Şekerli"
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "124848f8-e4a8-4540-a20c-6981614060d8",
@@ -29,7 +63,24 @@
           "description": "",
           "price": 100,
           "imageUrl": "https://media.kitchrest.com/products/da5f3dcb-9080-4fa3-8ef1-72eecd6612d2/product_124848f8-e4a8-4540-a20c-6981614060d8.jpg",
-          "isAvailable": true
+          "isAvailable": true,
+          "options": [
+            {
+              "name": "Türk Kahvesi",
+              "required": true,
+              "items": [
+                {
+                  "name": "Sade"
+                },
+                {
+                  "name": "Orta"
+                },
+                {
+                  "name": "Şekerli"
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "d335272a-dde8-449e-ab38-7014c028ffdb",
@@ -37,7 +88,26 @@
           "description": "",
           "price": 160,
           "imageUrl": "https://media.kitchrest.com/products/da5f3dcb-9080-4fa3-8ef1-72eecd6612d2/product_d335272a-dde8-449e-ab38-7014c028ffdb.jpg",
-          "isAvailable": true
+          "isAvailable": true,
+          "options": [
+            {
+              "name": "Filtre Kahve",
+              "required": true,
+              "items": [
+                {
+                  "name": "Sütlü",
+                  "price": 20
+                },
+                {
+                  "name": "Sade"
+                },
+                {
+                  "name": "Aromalı",
+                  "price": 30
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "3b43e179-33c7-47cb-af1c-837b4c8fc7b9",
@@ -53,7 +123,128 @@
           "description": "",
           "price": 170,
           "imageUrl": "https://media.kitchrest.com/products/da5f3dcb-9080-4fa3-8ef1-72eecd6612d2/product_3d6f4ffc-550d-416c-8d5f-309ff18d5e7b.jpg",
-          "isAvailable": true
+          "isAvailable": true,
+          "options": [
+            {
+              "name": "Latte",
+              "required": false,
+              "items": [
+                {
+                  "name": "Fındıklı",
+                  "price": 20
+                },
+                {
+                  "name": "Vanilya",
+                  "price": 20
+                },
+                {
+                  "name": "Caramel",
+                  "price": 20
+                },
+                {
+                  "name": "Çilek",
+                  "price": 20
+                },
+                {
+                  "name": "Mango",
+                  "price": 20
+                },
+                {
+                  "name": "Makaron",
+                  "price": 20
+                },
+                {
+                  "name": "Creme Brulee",
+                  "price": 20
+                },
+                {
+                  "name": "Hibiscus",
+                  "price": 20
+                },
+                {
+                  "name": "Tuffee Nut (Fındık)",
+                  "price": 20
+                },
+                {
+                  "name": "Zencefil",
+                  "price": 20
+                },
+                {
+                  "name": "Irish Cream",
+                  "price": 20
+                },
+                {
+                  "name": "Sade"
+                },
+                {
+                  "name": "Çikolata-karamel",
+                  "price": 30
+                },
+                {
+                  "name": "Creme brule",
+                  "price": 20
+                },
+                {
+                  "name": "Tiramusu",
+                  "price": 20
+                },
+                {
+                  "name": "Fıstıklı",
+                  "price": 30
+                },
+                {
+                  "name": "Şekersiz karamel",
+                  "price": 30
+                },
+                {
+                  "name": "Şekersiz vanilya",
+                  "price": 30
+                },
+                {
+                  "name": "Şekersiz fındık",
+                  "price": 30
+                },
+                {
+                  "name": "Pumpkin balkabagı",
+                  "price": 20
+                },
+                {
+                  "name": "Tuzsuz karamel",
+                  "price": 20
+                },
+                {
+                  "name": "Çikolata",
+                  "price": 20
+                },
+                {
+                  "name": "Chai tea latte",
+                  "price": 20
+                },
+                {
+                  "name": "Lotus",
+                  "price": 40
+                },
+                {
+                  "name": "Patlayan şeker",
+                  "price": 30
+                },
+                {
+                  "name": "Tereyağlı caramel",
+                  "price": 20
+                }
+              ]
+            },
+            {
+              "name": "EKSTRS ŞURUP",
+              "required": false,
+              "items": [
+                {
+                  "name": "EKSTRA ŞURUP",
+                  "price": 20
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "33698ead-b017-4ac2-b7b3-17e9b123013d",
@@ -69,7 +260,25 @@
           "description": "",
           "price": 200,
           "imageUrl": "https://media.kitchrest.com/products/da5f3dcb-9080-4fa3-8ef1-72eecd6612d2/product_259a28d4-d007-4a1d-a77b-bb437980e6ba.jpg",
-          "isAvailable": true
+          "isAvailable": true,
+          "options": [
+            {
+              "name": "Mocha",
+              "required": false,
+              "items": [
+                {
+                  "name": "White"
+                },
+                {
+                  "name": "Sade"
+                },
+                {
+                  "name": "Tuzsuz karamel",
+                  "price": 10
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "122bff95-8f2f-4c2a-a2f4-8322ea890447",
@@ -77,7 +286,22 @@
           "description": "",
           "price": 170,
           "imageUrl": "https://media.kitchrest.com/products/da5f3dcb-9080-4fa3-8ef1-72eecd6612d2/product_122bff95-8f2f-4c2a-a2f4-8322ea890447.jpg",
-          "isAvailable": true
+          "isAvailable": true,
+          "options": [
+            {
+              "name": "Macchiato",
+              "required": true,
+              "items": [
+                {
+                  "name": "Caramel",
+                  "price": 20
+                },
+                {
+                  "name": "Sade"
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "6731d18a-3e4b-444d-a576-09518f7145ed",
@@ -85,7 +309,26 @@
           "description": "",
           "price": 150,
           "imageUrl": "https://media.kitchrest.com/products/da5f3dcb-9080-4fa3-8ef1-72eecd6612d2/product_6731d18a-3e4b-444d-a576-09518f7145ed.jpg",
-          "isAvailable": true
+          "isAvailable": true,
+          "options": [
+            {
+              "name": "Filtre Kahve",
+              "required": true,
+              "items": [
+                {
+                  "name": "Sütlü",
+                  "price": 20
+                },
+                {
+                  "name": "Sade"
+                },
+                {
+                  "name": "Aromalı",
+                  "price": 20
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "beff7752-c0ed-4805-a397-8354f786d49e",
@@ -100,14 +343,48 @@
           "name": "Menengiç kahvesi",
           "description": "",
           "price": 110,
-          "isAvailable": true
+          "isAvailable": true,
+          "options": [
+            {
+              "name": "Türk Kahvesi",
+              "required": true,
+              "items": [
+                {
+                  "name": "Sade"
+                },
+                {
+                  "name": "Orta"
+                },
+                {
+                  "name": "Şekerli"
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "9318d9b5-3192-4ba0-8f2f-4ce781982f33",
           "name": "Duble Türk kahvesi",
           "description": "",
           "price": 150,
-          "isAvailable": true
+          "isAvailable": true,
+          "options": [
+            {
+              "name": "Türk Kahvesi",
+              "required": true,
+              "items": [
+                {
+                  "name": "Sade"
+                },
+                {
+                  "name": "Orta"
+                },
+                {
+                  "name": "Şekerli"
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "6613478c-5c9e-49c3-8fd3-023eb9ba4ba8",
@@ -149,21 +426,72 @@
           "name": "Duble menegiç",
           "description": "",
           "price": 170,
-          "isAvailable": true
+          "isAvailable": true,
+          "options": [
+            {
+              "name": "Türk Kahvesi",
+              "required": true,
+              "items": [
+                {
+                  "name": "Sade"
+                },
+                {
+                  "name": "Orta"
+                },
+                {
+                  "name": "Şekerli"
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "13a6bf16-fd4a-407c-a6ea-0ff1848bfbd0",
           "name": "Duble Damla sakızı türk kahvesi",
           "description": "",
           "price": 160,
-          "isAvailable": true
+          "isAvailable": true,
+          "options": [
+            {
+              "name": "Türk Kahvesi",
+              "required": true,
+              "items": [
+                {
+                  "name": "Sade"
+                },
+                {
+                  "name": "Orta"
+                },
+                {
+                  "name": "Şekerli"
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "63b51b69-2c78-4ef8-b898-f15abd312a00",
           "name": "Duble dibek kahvesi",
           "description": "",
           "price": 160,
-          "isAvailable": true
+          "isAvailable": true,
+          "options": [
+            {
+              "name": "Türk Kahvesi",
+              "required": false,
+              "items": [
+                {
+                  "name": "Sade"
+                },
+                {
+                  "name": "Orta"
+                },
+                {
+                  "name": "Şekerli"
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "d656286d-78d3-4573-99c7-26db5f50e31f",
@@ -194,7 +522,124 @@
           "description": "",
           "price": 190,
           "imageUrl": "https://media.kitchrest.com/products/da5f3dcb-9080-4fa3-8ef1-72eecd6612d2/product_aaf9f940-4af7-4e4b-ab19-252d355052a4.jpg",
-          "isAvailable": true
+          "isAvailable": true,
+          "options": [
+            {
+              "name": "Latte",
+              "required": false,
+              "items": [
+                {
+                  "name": "Şekersiz karamel",
+                  "price": 30
+                },
+                {
+                  "name": "Şekersiz fındık",
+                  "price": 30
+                },
+                {
+                  "name": "Chai tea latte",
+                  "price": 25
+                },
+                {
+                  "name": "Lotus",
+                  "price": 20
+                },
+                {
+                  "name": "Vanilya",
+                  "price": 20
+                },
+                {
+                  "name": "Caramel",
+                  "price": 20
+                },
+                {
+                  "name": "Mango",
+                  "price": 20
+                },
+                {
+                  "name": "Makaron",
+                  "price": 20
+                },
+                {
+                  "name": "Çilek",
+                  "price": 20
+                },
+                {
+                  "name": "Creme Brulee",
+                  "price": 20
+                },
+                {
+                  "name": "Hibiscus",
+                  "price": 20
+                },
+                {
+                  "name": "Tuffee Nut (Fındık)",
+                  "price": 20
+                },
+                {
+                  "name": "Zencefil",
+                  "price": 20
+                },
+                {
+                  "name": "Irish Cream",
+                  "price": 20
+                },
+                {
+                  "name": "Sade"
+                },
+                {
+                  "name": "Çikolata-karamel",
+                  "price": 30
+                },
+                {
+                  "name": "Creme brule",
+                  "price": 20
+                },
+                {
+                  "name": "Tiramusu",
+                  "price": 20
+                },
+                {
+                  "name": "Fındıklı",
+                  "price": 20
+                },
+                {
+                  "name": "Fıstıklı",
+                  "price": 30
+                },
+                {
+                  "name": "Pumpkin balkabagı",
+                  "price": 20
+                },
+                {
+                  "name": "Şekersiz vanilya",
+                  "price": 30
+                },
+                {
+                  "name": "Tuzsuz karamel",
+                  "price": 20
+                },
+                {
+                  "name": "Çikolata",
+                  "price": 20
+                },
+                {
+                  "name": "Patlayan şeker",
+                  "price": 30
+                }
+              ]
+            },
+            {
+              "name": "EKSTRS ŞURUP",
+              "required": false,
+              "items": [
+                {
+                  "name": "EKSTRA ŞURUP",
+                  "price": 20
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "ba7590ad-f32b-4085-9164-4dad872b6e52",
@@ -202,7 +647,22 @@
           "description": "",
           "price": 190,
           "imageUrl": "https://media.kitchrest.com/products/da5f3dcb-9080-4fa3-8ef1-72eecd6612d2/product_ba7590ad-f32b-4085-9164-4dad872b6e52.jpg",
-          "isAvailable": true
+          "isAvailable": true,
+          "options": [
+            {
+              "name": "Macchiato",
+              "required": true,
+              "items": [
+                {
+                  "name": "Caramel",
+                  "price": 20
+                },
+                {
+                  "name": "Sade"
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "4b5ca9cc-fc7f-42ca-996c-b038f3ce50a9",
@@ -210,7 +670,27 @@
           "description": "",
           "price": 190,
           "imageUrl": "https://media.kitchrest.com/products/da5f3dcb-9080-4fa3-8ef1-72eecd6612d2/product_4b5ca9cc-fc7f-42ca-996c-b038f3ce50a9.jpg",
-          "isAvailable": true
+          "isAvailable": true,
+          "options": [
+            {
+              "name": "Frappe",
+              "required": true,
+              "items": [
+                {
+                  "name": "Vanilya"
+                },
+                {
+                  "name": "Fındıklı"
+                },
+                {
+                  "name": "Caramel"
+                },
+                {
+                  "name": "Çikolata"
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "ae40f03c-0c01-4694-a907-a13deec3808c",
@@ -218,7 +698,25 @@
           "description": "",
           "price": 220,
           "imageUrl": "https://media.kitchrest.com/products/da5f3dcb-9080-4fa3-8ef1-72eecd6612d2/product_ae40f03c-0c01-4694-a907-a13deec3808c.jpg",
-          "isAvailable": true
+          "isAvailable": true,
+          "options": [
+            {
+              "name": "Mocha",
+              "required": true,
+              "items": [
+                {
+                  "name": "White"
+                },
+                {
+                  "name": "Sade"
+                },
+                {
+                  "name": "Tuzsuz karamel",
+                  "price": 20
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "5d15419c-056e-43e4-bf8c-176a77f62bb8",
@@ -242,7 +740,26 @@
           "description": "",
           "price": 170,
           "imageUrl": "https://media.kitchrest.com/products/da5f3dcb-9080-4fa3-8ef1-72eecd6612d2/product_9ff7ec9b-ba7f-4912-87a9-3f008386b2cc.jpeg",
-          "isAvailable": true
+          "isAvailable": true,
+          "options": [
+            {
+              "name": "Filtre Kahve",
+              "required": false,
+              "items": [
+                {
+                  "name": "Sade"
+                },
+                {
+                  "name": "Sütlü",
+                  "price": 20
+                },
+                {
+                  "name": "Aromalı",
+                  "price": 20
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "4fd59071-2ae8-47cf-9584-e29731cbdaee",
@@ -250,7 +767,114 @@
           "description": "",
           "price": 190,
           "imageUrl": "https://media.kitchrest.com/products/da5f3dcb-9080-4fa3-8ef1-72eecd6612d2/product_4fd59071-2ae8-47cf-9584-e29731cbdaee.jpeg",
-          "isAvailable": true
+          "isAvailable": true,
+          "options": [
+            {
+              "name": "Latte",
+              "required": false,
+              "items": [
+                {
+                  "name": "Şekersiz karamel",
+                  "price": 30
+                },
+                {
+                  "name": "Şekersiz fındık",
+                  "price": 30
+                },
+                {
+                  "name": "Chai tea latte",
+                  "price": 20
+                },
+                {
+                  "name": "Lotus",
+                  "price": 25
+                },
+                {
+                  "name": "Vanilya",
+                  "price": 20
+                },
+                {
+                  "name": "Caramel",
+                  "price": 20
+                },
+                {
+                  "name": "Makaron",
+                  "price": 15
+                },
+                {
+                  "name": "Çilek",
+                  "price": 20
+                },
+                {
+                  "name": "Creme Brulee",
+                  "price": 20
+                },
+                {
+                  "name": "Hibiscus",
+                  "price": 20
+                },
+                {
+                  "name": "Tuffee Nut (Fındık)",
+                  "price": 20
+                },
+                {
+                  "name": "Zencefil",
+                  "price": 20
+                },
+                {
+                  "name": "Irish Cream",
+                  "price": 20
+                },
+                {
+                  "name": "Sade"
+                },
+                {
+                  "name": "Çikolata-karamel",
+                  "price": 20
+                },
+                {
+                  "name": "Dubai çikolatalı",
+                  "price": 45
+                },
+                {
+                  "name": "Creme brule",
+                  "price": 20
+                },
+                {
+                  "name": "Tiramusu",
+                  "price": 20
+                },
+                {
+                  "name": "Fındıklı",
+                  "price": 20
+                },
+                {
+                  "name": "Fıstıklı",
+                  "price": 30
+                },
+                {
+                  "name": "Pumpkin balkabagı",
+                  "price": 20
+                },
+                {
+                  "name": "Şekersiz vanilya",
+                  "price": 30
+                },
+                {
+                  "name": "Tuzsuz karamel",
+                  "price": 20
+                },
+                {
+                  "name": "Çikolata",
+                  "price": 20
+                },
+                {
+                  "name": "Patlayan şeker",
+                  "price": 30
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "726f8f32-a134-4ed0-8c2f-a279810d0f2b",
@@ -265,7 +889,30 @@
           "name": "Frapiçino",
           "description": "",
           "price": 220,
-          "isAvailable": true
+          "isAvailable": true,
+          "options": [
+            {
+              "name": "Frappe",
+              "required": true,
+              "items": [
+                {
+                  "name": "Vanilya"
+                },
+                {
+                  "name": "Fındıklı"
+                },
+                {
+                  "name": "Caramel"
+                },
+                {
+                  "name": "Çikolata"
+                },
+                {
+                  "name": "Sade"
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "7f5813ba-8230-41f1-9d57-38e1a6cf45b5",
@@ -308,14 +955,131 @@
           "name": "Magnolya",
           "description": "",
           "price": 180,
-          "isAvailable": true
+          "isAvailable": true,
+          "options": [
+            {
+              "name": "Magnolya",
+              "required": true,
+              "items": [
+                {
+                  "name": "Oreo"
+                },
+                {
+                  "name": "Bisküvili"
+                },
+                {
+                  "name": "Meyveli"
+                },
+                {
+                  "name": "Lotus",
+                  "price": 10
+                },
+                {
+                  "name": "Dubai çikolatalı",
+                  "price": 20
+                },
+                {
+                  "name": "Frambuaz"
+                },
+                {
+                  "name": "Çikolatalı bisküvili"
+                },
+                {
+                  "name": "Vişne"
+                },
+                {
+                  "name": "Yaban mersini"
+                },
+                {
+                  "name": "Karamelli"
+                },
+                {
+                  "name": "Antep fıstığı",
+                  "price": 10
+                },
+                {
+                  "name": "Beyaz çikolata"
+                },
+                {
+                  "name": "Browni"
+                },
+                {
+                  "name": "Böğürtlen"
+                },
+                {
+                  "name": "Kitkat",
+                  "price": 10
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "c99f38d6-1f1e-4996-87a9-b0c376699ac8",
           "name": "Cheesecake",
           "description": "",
           "price": 220,
-          "isAvailable": true
+          "isAvailable": true,
+          "options": [
+            {
+              "name": "Cheesecake",
+              "required": true,
+              "items": [
+                {
+                  "name": "Lotus",
+                  "price": 30
+                },
+                {
+                  "name": "Normal"
+                },
+                {
+                  "name": "Dubai çikolata",
+                  "price": 50
+                },
+                {
+                  "name": "Frambuaz"
+                },
+                {
+                  "name": "Antep fıstığı",
+                  "price": 40
+                },
+                {
+                  "name": "Yaban mersini"
+                },
+                {
+                  "name": "Limonlu"
+                },
+                {
+                  "name": "Karışık meyveler"
+                },
+                {
+                  "name": "Tiramusu",
+                  "price": 40
+                },
+                {
+                  "name": "Çilek"
+                },
+                {
+                  "name": "Tuffnut",
+                  "price": 20
+                },
+                {
+                  "name": "Beyaz çikolata"
+                },
+                {
+                  "name": "Raffaello"
+                },
+                {
+                  "name": "kitkat",
+                  "price": 30
+                },
+                {
+                  "name": "Belçika çikoltalı",
+                  "price": 30
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "c5d5978b-ebfb-42b4-96ea-3369460847fd",
@@ -329,14 +1093,47 @@
           "name": "Brownie",
           "description": "",
           "price": 250,
-          "isAvailable": true
+          "isAvailable": true,
+          "options": [
+            {
+              "name": "Browni",
+              "required": false,
+              "items": [
+                {
+                  "name": "Sade"
+                },
+                {
+                  "name": "Dubai çikolata",
+                  "price": 50
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "21ca52ef-b850-462d-b184-ec507da78bf7",
           "name": "Trileçe",
           "description": "",
           "price": 200,
-          "isAvailable": true
+          "isAvailable": true,
+          "options": [
+            {
+              "name": "Triliçe",
+              "required": false,
+              "items": [
+                {
+                  "name": "Karamel"
+                },
+                {
+                  "name": "Frambuaz"
+                },
+                {
+                  "name": "Antep fıstığı",
+                  "price": 20
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "9c843c91-25db-4cd5-b746-7376614172d4",
@@ -344,7 +1141,21 @@
           "description": "",
           "price": 280,
           "imageUrl": "https://media.kitchrest.com/products/da5f3dcb-9080-4fa3-8ef1-72eecd6612d2/product_9c843c91-25db-4cd5-b746-7376614172d4.jpg",
-          "isAvailable": true
+          "isAvailable": true,
+          "options": [
+            {
+              "name": "San sebastian",
+              "required": false,
+              "items": [
+                {
+                  "name": "Sade"
+                },
+                {
+                  "name": "Antepli"
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "9e6c4a9b-dcbd-4be4-a6fb-ef86f60c0b81",
@@ -359,14 +1170,43 @@
           "description": "",
           "price": 220,
           "imageUrl": "https://media.kitchrest.com/products/da5f3dcb-9080-4fa3-8ef1-72eecd6612d2/product_b5accf17-c460-4646-9e2a-f3c6dd36c9d7.png",
-          "isAvailable": true
+          "isAvailable": true,
+          "options": [
+            {
+              "name": "Tiramusu",
+              "required": false,
+              "items": [
+                {
+                  "name": "Sade"
+                },
+                {
+                  "name": "Frambuaz",
+                  "price": 20
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "aa710fac-0b16-4c0c-baca-8ea1439a189f",
           "name": "Kap pasta  (AMONYAKLI PASTA)",
           "description": "",
           "price": 200,
-          "isAvailable": true
+          "isAvailable": true,
+          "options": [
+            {
+              "name": "Kap pasta",
+              "required": false,
+              "items": [
+                {
+                  "name": "Sade"
+                },
+                {
+                  "name": "Çikolatalı"
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "dea7b3e0-1ef1-4ec4-a083-d58413f723ab",
@@ -381,7 +1221,21 @@
           "description": "",
           "price": 400,
           "imageUrl": "https://media.kitchrest.com/products/da5f3dcb-9080-4fa3-8ef1-72eecd6612d2/cd59dc6d-ec08-45f6-a78d-65eaa9dc0a96.jpeg",
-          "isAvailable": true
+          "isAvailable": true,
+          "portions": [
+            {
+              "name": "Tam",
+              "price": 400
+            },
+            {
+              "name": "Yarım",
+              "price": 200
+            },
+            {
+              "name": "Bir buçuk",
+              "price": 600
+            }
+          ]
         },
         {
           "id": "06695cf3-de2a-43ae-ba56-b4ab1e88a820",
@@ -410,7 +1264,42 @@
           "name": "Ekler",
           "description": "",
           "price": 35,
-          "isAvailable": true
+          "isAvailable": true,
+          "options": [
+            {
+              "name": "Ekler",
+              "required": false,
+              "items": [
+                {
+                  "name": "Sade"
+                },
+                {
+                  "name": "Antep",
+                  "price": 10
+                },
+                {
+                  "name": "Frambuaz",
+                  "price": 10
+                },
+                {
+                  "name": "Limon",
+                  "price": 10
+                },
+                {
+                  "name": "Karamel",
+                  "price": 10
+                },
+                {
+                  "name": "Beyaz çikolata",
+                  "price": 10
+                },
+                {
+                  "name": "Çilek",
+                  "price": 10
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "5c4a5979-034a-4bed-aad6-f13de90c157f",
@@ -424,7 +1313,19 @@
           "name": "Sultan sarması",
           "description": "",
           "price": 150,
-          "isAvailable": true
+          "isAvailable": true,
+          "options": [
+            {
+              "name": "Triliçe",
+              "required": false,
+              "items": [
+                {
+                  "name": "Frambuaz",
+                  "price": 20
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "cd5a4cb3-5a61-4626-ab07-40906496c803",
@@ -606,7 +1507,27 @@
           "name": "Dilim pasta",
           "description": "",
           "price": 250,
-          "isAvailable": true
+          "isAvailable": true,
+          "options": [
+            {
+              "name": "DİLİM PASTA",
+              "required": false,
+              "items": [
+                {
+                  "name": "profiterol"
+                },
+                {
+                  "name": "red velvet"
+                },
+                {
+                  "name": "çikolata"
+                },
+                {
+                  "name": "antep fıstığı"
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "8eae79fb-7624-43bb-b372-01c5524522cf",
@@ -648,7 +1569,21 @@
           "name": "Çıtır profiterol",
           "description": "",
           "price": 200,
-          "isAvailable": true
+          "isAvailable": true,
+          "portions": [
+            {
+              "name": "Tam",
+              "price": 200
+            },
+            {
+              "name": "Yarım",
+              "price": 100
+            },
+            {
+              "name": "Bir buçuk",
+              "price": 300
+            }
+          ]
         },
         {
           "id": "f57cb4dd-e727-44b1-8460-c286f110cc13",
@@ -700,7 +1635,22 @@
           "description": "",
           "price": 170,
           "imageUrl": "https://media.kitchrest.com/products/da5f3dcb-9080-4fa3-8ef1-72eecd6612d2/product_16fcffc0-7f6f-4924-b687-0e155dc59dfe.jpg",
-          "isAvailable": true
+          "isAvailable": true,
+          "options": [
+            {
+              "name": "Salep",
+              "required": false,
+              "items": [
+                {
+                  "name": "Şurup fındık",
+                  "price": 20
+                },
+                {
+                  "name": "Sade"
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "aa305d9d-ec49-4494-b5d2-973a3b93c90a",
@@ -708,7 +1658,34 @@
           "description": "",
           "price": 170,
           "imageUrl": "https://media.kitchrest.com/products/da5f3dcb-9080-4fa3-8ef1-72eecd6612d2/product_aa305d9d-ec49-4494-b5d2-973a3b93c90a.jpg",
-          "isAvailable": true
+          "isAvailable": true,
+          "options": [
+            {
+              "name": "Sıcak çikolata",
+              "required": false,
+              "items": [
+                {
+                  "name": "Lotus",
+                  "price": 30
+                },
+                {
+                  "name": "Beyaz çikolata",
+                  "price": 10
+                },
+                {
+                  "name": "Çilek",
+                  "price": 20
+                },
+                {
+                  "name": "Karamel",
+                  "price": 20
+                },
+                {
+                  "name": "Normal"
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "a4f5f6b3-947f-4fda-adb2-33214e5bd899",
@@ -723,7 +1700,22 @@
           "name": "Süt",
           "description": "",
           "price": 120,
-          "isAvailable": true
+          "isAvailable": true,
+          "options": [
+            {
+              "name": "Süt",
+              "required": false,
+              "items": [
+                {
+                  "name": "Bal",
+                  "price": 20
+                },
+                {
+                  "name": "Sade"
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "8efb22f1-518d-4715-bc76-477a0fef4d63",
@@ -777,7 +1769,49 @@
           "description": "",
           "price": 220,
           "imageUrl": "https://media.kitchrest.com/products/da5f3dcb-9080-4fa3-8ef1-72eecd6612d2/product_855db601-4d18-4338-8867-711b0fd8608c.jpg",
-          "isAvailable": true
+          "isAvailable": true,
+          "options": [
+            {
+              "name": "Milkshake",
+              "required": false,
+              "items": [
+                {
+                  "name": "Çilekli"
+                },
+                {
+                  "name": "Lotus",
+                  "price": 20
+                },
+                {
+                  "name": "Karamelli"
+                },
+                {
+                  "name": "Çikolatalı"
+                },
+                {
+                  "name": "Vanilyalı"
+                },
+                {
+                  "name": "Kahveli",
+                  "price": 40
+                },
+                {
+                  "name": "Bisküvili"
+                },
+                {
+                  "name": "Cookie",
+                  "price": 20
+                },
+                {
+                  "name": "Oreo",
+                  "price": 20
+                },
+                {
+                  "name": "Muzlu"
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "24cb146e-4c09-41ef-9f30-549126d6578b",
@@ -793,7 +1827,39 @@
           "description": "",
           "price": 200,
           "imageUrl": "https://media.kitchrest.com/products/da5f3dcb-9080-4fa3-8ef1-72eecd6612d2/product_ff334b3d-7168-45a6-ad84-e5345703dda0.jpg",
-          "isAvailable": true
+          "isAvailable": true,
+          "options": [
+            {
+              "name": "Frozen / Smoothie",
+              "required": true,
+              "items": [
+                {
+                  "name": "Mango"
+                },
+                {
+                  "name": "Çilek"
+                },
+                {
+                  "name": "Karpuz"
+                },
+                {
+                  "name": "Çarkıfelek"
+                },
+                {
+                  "name": "Orman meyveli"
+                },
+                {
+                  "name": "Böğürtlen"
+                },
+                {
+                  "name": "Elma"
+                },
+                {
+                  "name": "Şeftali"
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "5b98c0d7-f3d3-4bac-9d0e-dd5633031b1d",
@@ -823,7 +1889,33 @@
           "name": "İtalyan soda",
           "description": "",
           "price": 150,
-          "isAvailable": true
+          "isAvailable": true,
+          "options": [
+            {
+              "name": "İtalyan soda",
+              "required": false,
+              "items": [
+                {
+                  "name": "Portakal mavi"
+                },
+                {
+                  "name": "Ahududu kırmızı"
+                },
+                {
+                  "name": "Çilek"
+                },
+                {
+                  "name": "Muz"
+                },
+                {
+                  "name": "Elma"
+                },
+                {
+                  "name": "Karadut"
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "00a19d9d-0675-4d25-8e15-b61fda23f253",
@@ -943,14 +2035,62 @@
           "name": "Bubble Waffle",
           "description": "",
           "price": 280,
-          "isAvailable": true
+          "isAvailable": true,
+          "options": [
+            {
+              "name": "Waffle",
+              "required": false,
+              "items": [
+                {
+                  "name": "Ekstra Meyve",
+                  "price": 30
+                },
+                {
+                  "name": "Ekstra Çikolata",
+                  "price": 30
+                },
+                {
+                  "name": "Dondurma 1 top",
+                  "price": 35
+                },
+                {
+                  "name": "Dondurma 2 top",
+                  "price": 70
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "890f5462-1fe6-4c67-9a16-74bf809e3b31",
           "name": "Duble Bubble",
           "description": "",
           "price": 400,
-          "isAvailable": true
+          "isAvailable": true,
+          "options": [
+            {
+              "name": "Waffle",
+              "required": false,
+              "items": [
+                {
+                  "name": "Ekstra Meyve",
+                  "price": 30
+                },
+                {
+                  "name": "Ekstra Çikolata",
+                  "price": 30
+                },
+                {
+                  "name": "Dondurma 1 top",
+                  "price": 35
+                },
+                {
+                  "name": "Dondurma 2 top",
+                  "price": 70
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -1104,35 +2244,241 @@
           "name": "MİDYE 4 ADET",
           "description": "",
           "price": 200,
-          "isAvailable": true
+          "isAvailable": true,
+          "portions": [
+            {
+              "name": "Tam",
+              "price": 200
+            },
+            {
+              "name": "Yarım",
+              "price": 100
+            },
+            {
+              "name": "Bir buçuk",
+              "price": 300
+            },
+            {
+              "name": "Kg",
+              "price": 1500
+            }
+          ],
+          "options": [
+            {
+              "name": "BAKLAVA",
+              "required": false,
+              "items": [
+                {
+                  "name": "EKSTRA BAKLAVA 1 ADET",
+                  "price": 50
+                },
+                {
+                  "name": "EKSTRA BAKLAVA 2 ADET",
+                  "price": 100
+                },
+                {
+                  "name": "EKSTRA 3 ADET BAKLAVA",
+                  "price": 150
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "d11f44e5-ad2b-4c3a-8c1a-fcaf4d95de50",
           "name": "Kadayıf dilim",
           "description": "",
           "price": 150,
-          "isAvailable": true
+          "isAvailable": true,
+          "portions": [
+            {
+              "name": "Tam",
+              "price": 150
+            },
+            {
+              "name": "Yarım",
+              "price": 500
+            },
+            {
+              "name": "Bir buçuk",
+              "price": 1500
+            },
+            {
+              "name": "Kg",
+              "price": 1000
+            }
+          ],
+          "options": [
+            {
+              "name": "Kaymak",
+              "required": false,
+              "items": [
+                {
+                  "name": "Sade"
+                },
+                {
+                  "name": "Kaymaklı",
+                  "price": 30
+                }
+              ]
+            },
+            {
+              "name": "Baklava dondurma",
+              "required": false,
+              "items": [
+                {
+                  "name": "Sade"
+                },
+                {
+                  "name": "1 top dondurma",
+                  "price": 35
+                },
+                {
+                  "name": "2 top dondurma",
+                  "price": 70
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "1229d0ec-23f8-4bcf-8a46-3469ec59ac30",
           "name": "Antep sarma 4 adet",
           "description": "",
           "price": 240,
-          "isAvailable": true
+          "isAvailable": true,
+          "portions": [
+            {
+              "name": "Tam",
+              "price": 240
+            },
+            {
+              "name": "Yarım",
+              "price": 120
+            },
+            {
+              "name": "Bir buçuk",
+              "price": 360
+            },
+            {
+              "name": "Kg",
+              "price": 1800
+            }
+          ],
+          "options": [
+            {
+              "name": "Soğuk baklava",
+              "required": false,
+              "items": [
+                {
+                  "name": "Tane 1 adet",
+                  "price": 50
+                },
+                {
+                  "name": "Tane 2 adet",
+                  "price": 100
+                },
+                {
+                  "name": "Tane 3 adet",
+                  "price": 150
+                },
+                {
+                  "name": "Tane 4 adet",
+                  "price": 200
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "068fd1b4-3925-48fa-b2e0-6467890b3399",
           "name": "Şöbiyet kaymaklı 3 adet",
           "description": "",
           "price": 200,
-          "isAvailable": true
+          "isAvailable": true,
+          "portions": [
+            {
+              "name": "Tam",
+              "price": 200
+            },
+            {
+              "name": "Yarım",
+              "price": 120
+            },
+            {
+              "name": "Bir buçuk",
+              "price": 260
+            },
+            {
+              "name": "Kg",
+              "price": 1500
+            }
+          ],
+          "options": [
+            {
+              "name": "BAKLAVA",
+              "required": false,
+              "items": [
+                {
+                  "name": "EKSTRA BAKLAVA 1 ADET",
+                  "price": 60
+                },
+                {
+                  "name": "EKSTRA BAKLAVA 2 ADET",
+                  "price": 120
+                },
+                {
+                  "name": "EKSTRA 3 ADET BAKLAVA",
+                  "price": 180
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "f7fe4b34-540e-4f8e-b93f-bdb89a3c139a",
           "name": "Cevizli baklava",
           "description": "",
           "price": 180,
-          "isAvailable": true
+          "isAvailable": true,
+          "portions": [
+            {
+              "name": "Tam",
+              "price": 180
+            },
+            {
+              "name": "Yarım",
+              "price": 90
+            },
+            {
+              "name": "Bir buçuk",
+              "price": 270
+            },
+            {
+              "name": "Kg",
+              "price": 1000
+            }
+          ],
+          "options": [
+            {
+              "name": "BAKLAVA",
+              "required": false,
+              "items": [
+                {
+                  "name": "EKSTRA BAKLAVA 1 ADET",
+                  "price": 40
+                },
+                {
+                  "name": "EKSTRA BAKLAVA 2 ADET",
+                  "price": 80
+                },
+                {
+                  "name": "EKSTRA 3 ADET BAKLAVA",
+                  "price": 120
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "353d8b67-0e00-4507-bf25-4a812736827f",
@@ -1146,14 +2492,38 @@
           "name": "kuru baklava 4 adet",
           "description": "",
           "price": 300,
-          "isAvailable": true
+          "isAvailable": true,
+          "portions": [
+            {
+              "name": "Tam",
+              "price": 300
+            },
+            {
+              "name": "Kg",
+              "price": 1600
+            },
+            {
+              "name": "Yarım",
+              "price": 150
+            }
+          ]
         },
         {
           "id": "61b71fa4-b8e2-4bdc-886e-65bcea916687",
           "name": "tulumba 5 adet",
           "description": "",
           "price": 100,
-          "isAvailable": true
+          "isAvailable": true,
+          "portions": [
+            {
+              "name": "Tam",
+              "price": 100
+            },
+            {
+              "name": "Kg",
+              "price": 600
+            }
+          ]
         }
       ]
     },
@@ -1167,14 +2537,54 @@
           "name": "Tost",
           "description": "",
           "price": 160,
-          "isAvailable": true
+          "isAvailable": true,
+          "portions": [
+            {
+              "name": "Tam",
+              "price": 300
+            },
+            {
+              "name": "Yarım",
+              "price": 160
+            }
+          ],
+          "ingredients": [
+            "KARIŞIK",
+            "SUCUKLU",
+            "KAŞAR",
+            "KETÇAP",
+            "MAYONEZ",
+            "SALÇALI"
+          ]
         },
         {
           "id": "6518094a-80f1-4de9-9ecf-e9da089086b7",
           "name": "BOMBA",
           "description": "",
           "price": 200,
-          "isAvailable": true
+          "isAvailable": true,
+          "portions": [
+            {
+              "name": "Tam",
+              "price": 400
+            },
+            {
+              "name": "Yarım",
+              "price": 200
+            }
+          ],
+          "ingredients": [
+            "KARIŞIK",
+            "KETÇAP OLMIYCAK",
+            "MAYONEZ OLMIYCAK",
+            "TURŞU OLMIYCAK",
+            "SOĞAN OLMIYCAK",
+            "SALÇA OLMIYCAK",
+            "KAŞAR OLMIYCAK",
+            "MARUL OLMIYCAK",
+            "DOMATES OLMIYCAK",
+            "SALÇALI"
+          ]
         },
         {
           "id": "fe2f2300-b1c3-4e52-9ce7-e18850ff56dd",
@@ -1188,21 +2598,75 @@
           "name": "GÖZLEME",
           "description": "",
           "price": 240,
-          "isAvailable": true
+          "isAvailable": true,
+          "ingredients": [
+            "KETÇAP",
+            "MAYONEZ",
+            "SALÇALI"
+          ],
+          "options": [
+            {
+              "name": "Gözleme",
+              "required": false,
+              "items": [
+                {
+                  "name": "Kaşarlı"
+                },
+                {
+                  "name": "Sucuklu kaşarlı",
+                  "price": 50
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "3559eaf1-1488-41ac-be32-54550c852575",
           "name": "KÖFTE EKMEK",
           "description": "",
           "price": 500,
-          "isAvailable": true
+          "isAvailable": true,
+          "portions": [
+            {
+              "name": "Tam",
+              "price": 900
+            },
+            {
+              "name": "Yarım",
+              "price": 500
+            }
+          ],
+          "ingredients": [
+            "KETÇAP OLMIYCAK",
+            "MAYONEZ OLMIYCAK",
+            "SOĞAN OLMIYCAK",
+            "SALÇA OLMIYCAK",
+            "MARUL OLMIYCAK"
+          ]
         },
         {
           "id": "8ba465e9-d617-4a3c-934d-1c6cec2bb3db",
           "name": "KÖFTE PORSİYON",
           "description": "",
           "price": 650,
-          "isAvailable": true
+          "isAvailable": true,
+          "portions": [
+            {
+              "name": "Tam",
+              "price": 650
+            },
+            {
+              "name": "Yarım",
+              "price": 450
+            }
+          ],
+          "ingredients": [
+            "TURŞU OLMIYCAK",
+            "SOĞAN OLMIYCAK",
+            "SALÇA OLMIYCAK",
+            "MARUL OLMIYCAK",
+            "DOMATES OLMIYCAK"
+          ]
         }
       ]
     },
@@ -1216,14 +2680,75 @@
           "name": "Kahve 50",
           "description": "",
           "price": 50,
-          "isAvailable": true
+          "isAvailable": true,
+          "options": [
+            {
+              "name": "Kahve 100",
+              "required": false,
+              "items": [
+                {
+                  "name": "Türk kahvesi sade"
+                },
+                {
+                  "name": "Damla sakızlı türk kahvesi"
+                },
+                {
+                  "name": "Espresso"
+                },
+                {
+                  "name": "Menengiç"
+                },
+                {
+                  "name": "Türk kahvesi orta"
+                },
+                {
+                  "name": "Türk kahvesi şekerli"
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "a2237561-e30c-4a5f-9468-51820918a05a",
           "name": "Kahve 100",
           "description": "",
           "price": 100,
-          "isAvailable": true
+          "isAvailable": true,
+          "options": [
+            {
+              "name": "Kahve 100",
+              "required": false,
+              "items": [
+                {
+                  "name": "Soğuk"
+                },
+                {
+                  "name": "Karton"
+                },
+                {
+                  "name": "Americano"
+                },
+                {
+                  "name": "Latte"
+                },
+                {
+                  "name": "Cortado"
+                },
+                {
+                  "name": "Flat whit"
+                },
+                {
+                  "name": "Cappcino"
+                },
+                {
+                  "name": "Mocha"
+                },
+                {
+                  "name": "Machiato"
+                }
+              ]
+            }
+          ]
         }
       ]
     }

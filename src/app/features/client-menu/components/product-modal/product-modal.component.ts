@@ -49,41 +49,100 @@ import { ImageUrlPipe } from '../../../../shared/pipes/image-url.pipe';
                 </span>
               </div>
 
-              <p class="text-[#725B4D] text-sm sm:text-base leading-relaxed mb-6">
-                {{ product.description }}
-              </p>
+              @if (product.description) {
+                <p class="text-[#725B4D] text-sm sm:text-base leading-relaxed mb-5">
+                  {{ product.description }}
+                </p>
+              }
+
+              <!-- Porsiyon Seçenekleri -->
+              @if (product.portions && product.portions.length > 0) {
+                <div class="mb-5">
+                  <h4 class="text-xs font-extrabold uppercase tracking-wider text-[#725B4D] mb-2.5">Porsiyon Seçenekleri</h4>
+                  <div class="grid grid-cols-2 sm:grid-cols-3 gap-2">
+                    @for (portion of product.portions; track portion.name) {
+                      <div class="bg-[#F7F1E3] px-3 py-2 rounded-xl border border-[#E3D7C1] flex items-center justify-between gap-2">
+                        <span class="text-xs font-bold text-[#3A2418]">{{ portion.name }}</span>
+                        <span class="text-xs font-extrabold text-[#C65D3A]">{{ portion.price | number:'1.0-2' }} ₺</span>
+                      </div>
+                    }
+                  </div>
+                </div>
+              }
+
+              <!-- İçindekiler -->
+              @if (product.ingredients && product.ingredients.length > 0) {
+                <div class="mb-5">
+                  <h4 class="text-xs font-extrabold uppercase tracking-wider text-[#725B4D] mb-2">İçindekiler / Tercihler</h4>
+                  <div class="flex flex-wrap gap-1.5">
+                    @for (ing of product.ingredients; track ing) {
+                      <span class="px-2.5 py-1 rounded-lg bg-[#EFE7D5] text-[#3A2418] text-xs font-semibold">
+                        {{ ing }}
+                      </span>
+                    }
+                  </div>
+                </div>
+              }
+
+              <!-- Ekstra / Aroma Seçenekleri -->
+              @if (product.options && product.options.length > 0) {
+                <div class="mb-5 space-y-4">
+                  @for (optGroup of product.options; track optGroup.name) {
+                    <div>
+                      <div class="flex items-center justify-between mb-2">
+                        <h4 class="text-xs font-extrabold uppercase tracking-wider text-[#725B4D]">{{ optGroup.name }}</h4>
+                        @if (optGroup.required) {
+                          <span class="text-[10px] font-bold px-2 py-0.5 rounded-full bg-[#C65D3A]/15 text-[#C65D3A]">Zorunlu Seçim</span>
+                        }
+                      </div>
+                      <div class="flex flex-wrap gap-1.5">
+                        @for (item of optGroup.items; track item.name) {
+                          <span class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-xl bg-[#F7F1E3] border border-[#E3D7C1] text-xs font-semibold text-[#3A2418]">
+                            <span>{{ item.name }}</span>
+                            @if (item.price) {
+                              <span class="text-[#C65D3A] font-extrabold">+{{ item.price | number:'1.0-2' }} ₺</span>
+                            }
+                          </span>
+                        }
+                      </div>
+                    </div>
+                  }
+                </div>
+              }
 
               <!-- Rozet / Ek Bilgi Kutuları -->
-              <div class="grid grid-cols-2 gap-3 mb-6">
-                @if (product.calories) {
-                  <div class="bg-[#F7F1E3] p-3 rounded-2xl border border-[#E3D7C1] flex items-center gap-3">
-                    <div class="w-9 h-9 rounded-xl bg-[#C65D3A]/10 text-[#C65D3A] flex items-center justify-center font-bold">
-                      🔥
+              @if (product.calories || product.preparationTime) {
+                <div class="grid grid-cols-2 gap-3 mb-6">
+                  @if (product.calories) {
+                    <div class="bg-[#F7F1E3] p-3 rounded-2xl border border-[#E3D7C1] flex items-center gap-3">
+                      <div class="w-9 h-9 rounded-xl bg-[#C65D3A]/10 text-[#C65D3A] flex items-center justify-center font-bold">
+                        🔥
+                      </div>
+                      <div>
+                        <div class="text-[11px] text-[#725B4D] font-semibold uppercase tracking-wider">Enerji</div>
+                        <div class="text-sm font-extrabold text-[#3A2418]">{{ product.calories }} kcal</div>
+                      </div>
                     </div>
-                    <div>
-                      <div class="text-[11px] text-[#725B4D] font-semibold uppercase tracking-wider">Enerji</div>
-                      <div class="text-sm font-extrabold text-[#3A2418]">{{ product.calories }} kcal</div>
+                  }
+                  @if (product.preparationTime) {
+                    <div class="bg-[#F7F1E3] p-3 rounded-2xl border border-[#E3D7C1] flex items-center gap-3">
+                      <div class="w-9 h-9 rounded-xl bg-[#C65D3A]/10 text-[#C65D3A] flex items-center justify-center font-bold">
+                        ⏱️
+                      </div>
+                      <div>
+                        <div class="text-[11px] text-[#725B4D] font-semibold uppercase tracking-wider">Hazırlık</div>
+                        <div class="text-sm font-extrabold text-[#3A2418]">{{ product.preparationTime }}</div>
+                      </div>
                     </div>
-                  </div>
-                }
-                @if (product.preparationTime) {
-                  <div class="bg-[#F7F1E3] p-3 rounded-2xl border border-[#E3D7C1] flex items-center gap-3">
-                    <div class="w-9 h-9 rounded-xl bg-[#C65D3A]/10 text-[#C65D3A] flex items-center justify-center font-bold">
-                      ⏱️
-                    </div>
-                    <div>
-                      <div class="text-[11px] text-[#725B4D] font-semibold uppercase tracking-wider">Hazırlık</div>
-                      <div class="text-sm font-extrabold text-[#3A2418]">{{ product.preparationTime }}</div>
-                    </div>
-                  </div>
-                }
-              </div>
+                  }
+                </div>
+              }
             </div>
 
             <!-- Kapat / Menüye Dön Butonu -->
             <button 
               (click)="menuService.closeProductDetail()"
-              class="w-full py-3.5 rounded-2xl bg-[#3A2418] hover:bg-[#2A180E] text-[#F7F1E3] font-bold text-sm transition-all duration-200 shadow-md active:scale-98 cursor-pointer">
+              class="w-full py-3.5 rounded-2xl bg-[#3A2418] hover:bg-[#2A180E] text-[#F7F1E3] font-bold text-sm transition-all duration-200 shadow-md active:scale-98 cursor-pointer mt-2">
               Menüye Dön
             </button>
           </div>
