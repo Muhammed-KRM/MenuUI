@@ -1,3 +1,19 @@
+export interface ProductPortion {
+  name: string;
+  price: number;
+}
+
+export interface ProductOptionItem {
+  name: string;
+  price?: number | null;
+}
+
+export interface ProductOptionGroup {
+  name: string;
+  required?: boolean;
+  items: ProductOptionItem[];
+}
+
 export interface Product {
   id: string;
   name: string;
@@ -9,6 +25,9 @@ export interface Product {
   isAvailable?: boolean;
   badge?: string;        // "Yeni", "Popüler", "Şefin Seçimi" vs.
   allergens?: string[];  // Alerjen bilgisi
+  portions?: ProductPortion[];
+  options?: ProductOptionGroup[];
+  ingredients?: string[];
 }
 
 export interface Category {
